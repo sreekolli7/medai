@@ -1,0 +1,210 @@
+{
+  "_note": "Starter MCAT-style practice questions written by MedAi. DRAFTS: stored with reviewed = false until a qualified reviewer approves each one. Not official AAMC questions.",
+  "source_name": "MedAi question bank (draft)",
+  "license": "Original MedAi content. Draft, not yet reviewed.",
+  "topics": {
+    "amino-acids-proteins": [
+      { "prompt": "Which standard amino acid has an alpha carbon that is NOT a chiral center?", "choices": ["Alanine", "Glycine", "Serine", "Proline"], "answer": "B", "explanation": "Glycine's side chain is a single hydrogen, so its alpha carbon carries two identical groups and is not chiral." },
+      { "prompt": "A competitive inhibitor is added to an enzyme reaction. How do the apparent Km and Vmax change?", "choices": ["Km increases; Vmax is unchanged", "Km is unchanged; Vmax decreases", "Both Km and Vmax decrease", "Km decreases; Vmax increases"], "answer": "A", "explanation": "A competitive inhibitor competes for the active site. Enough substrate can outcompete it, so Vmax is still reached, but more substrate is needed to reach half of Vmax." },
+      { "prompt": "Which interaction mainly stabilizes protein secondary structure such as alpha helices and beta sheets?", "choices": ["Disulfide bonds between cysteines", "Hydrogen bonds between backbone groups", "Hydrophobic interactions between side chains", "Ionic bonds between side chains"], "answer": "B", "explanation": "Secondary structure is held together by hydrogen bonds between backbone carbonyl oxygens and amide hydrogens. Side-chain interactions mostly shape tertiary structure." }
+    ],
+    "dna-gene-expression": [
+      { "prompt": "In which direction does DNA polymerase synthesize a new DNA strand?", "choices": ["3' to 5'", "5' to 3'", "Both directions equally", "It depends on the template strand"], "answer": "B", "explanation": "DNA polymerase adds nucleotides to a free 3'-OH, so new strands grow 5' to 3'. That is why the lagging strand is made in Okazaki fragments." },
+      { "prompt": "Where does transcription take place in a eukaryotic cell?", "choices": ["Cytoplasm", "Nucleus", "Ribosome", "Golgi apparatus"], "answer": "B", "explanation": "Eukaryotic DNA is in the nucleus, where it is transcribed into RNA. The mRNA is then processed and exported to the cytoplasm for translation." },
+      { "prompt": "In E. coli, lactose is present and glucose is absent. What happens to the lac operon?", "choices": ["The repressor stays on the operator, so transcription is off", "The repressor is released and high cAMP-CAP strongly activates transcription", "Transcription is off because cAMP levels are low", "Lactose binds the promoter directly to start transcription"], "answer": "B", "explanation": "Allolactose binds the repressor and releases it from the operator. Low glucose raises cAMP, and the cAMP-CAP complex boosts RNA polymerase binding." }
+    ],
+    "genetics-evolution": [
+      { "prompt": "Two parents are both heterozygous (Aa) for an autosomal recessive condition. What is the chance their child is affected?", "choices": ["0", "1/4", "1/2", "3/4"], "answer": "B", "explanation": "Aa × Aa gives AA : Aa : aa in a 1 : 2 : 1 ratio. Only aa is affected, which is 1 in 4." },
+      { "prompt": "A population is in Hardy-Weinberg equilibrium and the recessive allele frequency q is 0.3. What fraction of the population is heterozygous?", "choices": ["0.09", "0.21", "0.42", "0.49"], "answer": "C", "explanation": "p = 1 − 0.3 = 0.7, and the heterozygote frequency is 2pq = 2 × 0.7 × 0.3 = 0.42." },
+      { "prompt": "Random changes in allele frequency that matter most in small populations are called:", "choices": ["Natural selection", "Genetic drift", "Gene flow", "Mutation"], "answer": "B", "explanation": "Genetic drift is change due to chance in which individuals reproduce. Its effect is strongest when the population is small." }
+    ],
+    "metabolism": [
+      { "prompt": "What is the net ATP yield of glycolysis per molecule of glucose?", "choices": ["1", "2", "4", "36"], "answer": "B", "explanation": "Glycolysis makes 4 ATP by substrate-level phosphorylation but uses 2 ATP in the early steps, for a net of 2." },
+      { "prompt": "Where does the citric acid (Krebs) cycle occur in eukaryotic cells?", "choices": ["Cytosol", "Mitochondrial matrix", "Inner mitochondrial membrane", "Intermembrane space"], "answer": "B", "explanation": "The citric acid cycle enzymes are in the mitochondrial matrix. The electron transport chain is in the inner membrane." },
+      { "prompt": "What is the final electron acceptor of the mitochondrial electron transport chain?", "choices": ["NAD+", "Oxygen", "FAD", "Pyruvate"], "answer": "B", "explanation": "Complex IV passes electrons to O2, which combines with protons to form water." }
+    ],
+    "cells-membranes": [
+      { "prompt": "Which molecule crosses a phospholipid bilayer most easily by simple diffusion?", "choices": ["Glucose", "Na+", "O2", "ATP"], "answer": "C", "explanation": "Small, nonpolar molecules like O2 pass through the hydrophobic core. Ions and large polar molecules need channels or transporters." },
+      { "prompt": "During which phase of mitosis do sister chromatids separate and move to opposite poles?", "choices": ["Prophase", "Metaphase", "Anaphase", "Telophase"], "answer": "C", "explanation": "In anaphase, cohesin is cleaved and sister chromatids are pulled to opposite poles." },
+      { "prompt": "For each ATP it uses, the Na+/K+ ATPase moves ions how?", "choices": ["3 Na+ out and 2 K+ in", "2 Na+ out and 3 K+ in", "3 Na+ in and 2 K+ out", "1 Na+ out and 1 K+ in"], "answer": "A", "explanation": "The pump moves 3 Na+ out and 2 K+ in per ATP. This helps maintain the resting membrane potential." }
+    ],
+    "microbes": [
+      { "prompt": "Gram-positive bacteria stain purple in a Gram stain because they have:", "choices": ["A thick peptidoglycan cell wall", "An outer membrane with lipopolysaccharide", "No cell wall", "A membrane-bound nucleus"], "answer": "A", "explanation": "The thick peptidoglycan layer traps the crystal violet stain. Gram-negative bacteria have a thin layer plus an outer membrane." },
+      { "prompt": "A retrovirus makes DNA from its RNA genome using which enzyme?", "choices": ["DNA polymerase", "Reverse transcriptase", "RNA polymerase", "Ligase"], "answer": "B", "explanation": "Reverse transcriptase copies RNA into DNA. The DNA is then integrated into the host genome." },
+      { "prompt": "Transfer of DNA from one bacterium to another through a direct connection (a pilus) is called:", "choices": ["Transformation", "Transduction", "Conjugation", "Binary fission"], "answer": "C", "explanation": "Conjugation uses a pilus to connect cells. Transformation is uptake of free DNA, and transduction uses a virus." }
+    ],
+    "nervous-endocrine": [
+      { "prompt": "The rising (depolarization) phase of a neuron's action potential is caused mainly by:", "choices": ["K+ leaving the cell", "Na+ entering through voltage-gated channels", "Cl- entering the cell", "The Na+/K+ pump"], "answer": "B", "explanation": "Voltage-gated Na+ channels open and Na+ rushes in, making the inside more positive. Repolarization is mainly K+ leaving." },
+      { "prompt": "Which hormone is a steroid that acts through intracellular receptors?", "choices": ["Insulin", "Cortisol", "Epinephrine", "Glucagon"], "answer": "B", "explanation": "Cortisol is a steroid, so it crosses the membrane and binds intracellular receptors. Insulin and glucagon are peptides that act at the cell surface." },
+      { "prompt": "Myelin speeds up signal conduction along an axon because it:", "choices": ["Adds Na+ channels along the whole axon", "Allows saltatory conduction between nodes of Ranvier", "Raises the resting membrane potential", "Releases neurotransmitter along the axon"], "answer": "B", "explanation": "Myelin insulates the axon, so the action potential jumps between the gaps (nodes of Ranvier). This is called saltatory conduction." }
+    ],
+    "heart": [
+      { "prompt": "Which valve prevents blood from flowing back from the left ventricle into the left atrium?", "choices": ["Tricuspid valve", "Mitral (bicuspid) valve", "Pulmonary valve", "Aortic valve"], "answer": "B", "explanation": "The mitral valve sits between the left atrium and the left ventricle. The tricuspid valve is the matching valve on the right side." },
+      { "prompt": "What is the normal pacemaker of the heart?", "choices": ["AV node", "SA node", "Bundle of His", "Purkinje fibers"], "answer": "B", "explanation": "The SA node in the right atrium fires fastest, so it normally sets the heart rate." },
+      { "prompt": "During which part of the cardiac cycle do the ventricles fill with blood?", "choices": ["Ventricular systole", "Diastole", "Isovolumetric contraction", "Ejection"], "answer": "B", "explanation": "The ventricles fill while relaxed in diastole. Atrial contraction at the end of diastole adds the last portion." }
+    ],
+    "respiratory": [
+      { "prompt": "Where does most gas exchange happen in the lungs?", "choices": ["Trachea", "Bronchi", "Alveoli", "Larynx"], "answer": "C", "explanation": "Alveoli have thin walls and a huge surface area wrapped in capillaries, which is ideal for diffusion of O2 and CO2." },
+      { "prompt": "Which change shifts the oxygen-hemoglobin dissociation curve to the right?", "choices": ["Lower CO2 and higher pH", "Higher CO2, lower pH and higher temperature", "Lower temperature", "Lower 2,3-BPG"], "answer": "B", "explanation": "The Bohr effect: more CO2, more acid and more heat lower hemoglobin's affinity for O2, so O2 is released to active tissues." },
+      { "prompt": "Most carbon dioxide is carried in the blood as:", "choices": ["Dissolved CO2", "CO2 bound to the heme iron", "Bicarbonate ions", "Carbon monoxide"], "answer": "C", "explanation": "Carbonic anhydrase in red blood cells turns CO2 and water into carbonic acid, which dissociates into H+ and bicarbonate." }
+    ],
+    "digestive-renal": [
+      { "prompt": "Where does most nutrient absorption take place?", "choices": ["Stomach", "Small intestine", "Large intestine", "Esophagus"], "answer": "B", "explanation": "The small intestine's villi and microvilli create a huge surface area for absorbing nutrients." },
+      { "prompt": "ADH (vasopressin) increases water reabsorption mainly by acting on the:", "choices": ["Glomerulus", "Proximal convoluted tubule", "Collecting duct", "Ascending limb of the loop of Henle"], "answer": "C", "explanation": "ADH inserts aquaporins into the collecting duct, so more water leaves the urine and returns to the blood." },
+      { "prompt": "Which enzyme begins protein digestion in the stomach?", "choices": ["Amylase", "Pepsin", "Lipase", "Trypsin"], "answer": "B", "explanation": "Pepsin is activated from pepsinogen by stomach acid. Trypsin acts later, in the small intestine." }
+    ],
+    "immune": [
+      { "prompt": "Which cells secrete antibodies?", "choices": ["Helper T cells", "Plasma cells", "Neutrophils", "Natural killer cells"], "answer": "B", "explanation": "Activated B cells become plasma cells, which secrete antibodies." },
+      { "prompt": "MHC class I molecules present antigen to which cells?", "choices": ["CD4+ helper T cells", "CD8+ cytotoxic T cells", "B cells", "Mast cells"], "answer": "B", "explanation": "Nearly all nucleated cells show peptides on MHC I to CD8+ T cells. MHC II, on antigen-presenting cells, presents to CD4+ T cells." },
+      { "prompt": "Which of these is part of innate, not adaptive, immunity?", "choices": ["Memory B cells", "Antibodies made after a vaccine", "Macrophages engulfing bacteria", "Cytotoxic T cells specific to one virus"], "answer": "C", "explanation": "Macrophage phagocytosis is fast and non-specific, which makes it innate. The other options are specific to one antigen and have memory." }
+    ],
+    "muscle-bone-skin": [
+      { "prompt": "In skeletal muscle, Ca2+ starts contraction by binding to:", "choices": ["Actin", "Myosin", "Troponin", "Tropomyosin"], "answer": "C", "explanation": "Ca2+ binds troponin, which moves tropomyosin off the myosin-binding sites on actin." },
+      { "prompt": "Which cells break down bone matrix?", "choices": ["Osteoblasts", "Osteoclasts", "Osteocytes", "Chondrocytes"], "answer": "B", "explanation": "Osteoclasts resorb bone. Osteoblasts build new bone." },
+      { "prompt": "When a sarcomere contracts, which parts get shorter?", "choices": ["The A band", "The H zone and I band", "The thick filaments", "The thin filaments"], "answer": "B", "explanation": "The filaments slide past each other without changing length. The H zone and I band narrow, while the A band stays the same." }
+    ],
+    "reproduction-development": [
+      { "prompt": "The mid-cycle surge of LH triggers:", "choices": ["Menstruation", "Ovulation", "Implantation", "The start of menopause"], "answer": "B", "explanation": "Rising estrogen causes an LH surge, which triggers release of the egg from the mature follicle." },
+      { "prompt": "Which germ layer gives rise to the nervous system?", "choices": ["Endoderm", "Mesoderm", "Ectoderm", "Trophoblast"], "answer": "C", "explanation": "The neural tube forms from ectoderm. Ectoderm also forms the epidermis." },
+      { "prompt": "What separates during meiosis I?", "choices": ["Sister chromatids", "Homologous chromosomes", "Centrioles only", "Identical daughter genomes"], "answer": "B", "explanation": "Meiosis I separates homologous pairs, so the chromosome number halves. Sister chromatids separate in meiosis II." }
+    ],
+    "motion-forces": [
+      { "prompt": "A ball is dropped from rest. Ignoring air resistance and using g = 10 m/s², what is its speed after 2 seconds?", "choices": ["5 m/s", "10 m/s", "20 m/s", "40 m/s"], "answer": "C", "explanation": "v = gt = 10 m/s² × 2 s = 20 m/s." },
+      { "prompt": "You push on a wall. According to Newton's third law:", "choices": ["The wall pushes back on you with an equal and opposite force", "The wall exerts no force because it doesn't move", "The forces cancel, so neither object feels a force", "The wall pushes back with a smaller force"], "answer": "A", "explanation": "Action-reaction pairs are equal and opposite. They act on different objects, so they don't cancel each other." },
+      { "prompt": "Torque is equal to:", "choices": ["Force × perpendicular lever arm", "Mass × acceleration", "Force ÷ distance", "Mass × velocity"], "answer": "A", "explanation": "τ = rF sin θ, which is force times the perpendicular distance from the pivot." }
+    ],
+    "work-energy": [
+      { "prompt": "What is the kinetic energy of a 2 kg object moving at 3 m/s?", "choices": ["3 J", "6 J", "9 J", "18 J"], "answer": "C", "explanation": "KE = ½mv² = ½ × 2 × 3² = 9 J." },
+      { "prompt": "If there is no net external force, which quantity is conserved in every collision?", "choices": ["Kinetic energy", "Momentum", "Speed of each object", "Velocity of each object"], "answer": "B", "explanation": "Momentum is conserved in all collisions. Kinetic energy is conserved only in elastic collisions." },
+      { "prompt": "Power is defined as:", "choices": ["Work done per unit time", "Force × time", "Energy × time", "Mass × distance"], "answer": "A", "explanation": "P = W/t, measured in watts (joules per second)." }
+    ],
+    "fluids": [
+      { "prompt": "By Archimedes' principle, the buoyant force on a submerged object equals:", "choices": ["The object's weight", "The weight of the fluid it displaces", "The fluid's pressure times the object's mass", "The object's volume"], "answer": "B", "explanation": "F = ρ(fluid) × V(displaced) × g, which is the weight of the displaced fluid." },
+      { "prompt": "An ideal fluid flows through a pipe that gets narrower. What happens to its speed?", "choices": ["It decreases", "It increases", "It stays the same", "It drops to zero"], "answer": "B", "explanation": "Continuity: A₁v₁ = A₂v₂. A smaller area means a higher speed." },
+      { "prompt": "The gauge pressure at depth h in a fluid of density ρ is:", "choices": ["ρgh", "ρ/(gh)", "gh/ρ", "ρh/g"], "answer": "A", "explanation": "Hydrostatic pressure grows with depth: P = ρgh above surface pressure." }
+    ],
+    "electricity-magnetism": [
+      { "prompt": "The distance between two point charges is doubled. The electrostatic force between them becomes:", "choices": ["Half as large", "One-quarter as large", "Twice as large", "Four times as large"], "answer": "B", "explanation": "Coulomb's law: F ∝ 1/r². Doubling r divides F by 4." },
+      { "prompt": "Two 6 Ω resistors are connected in parallel. What is the equivalent resistance?", "choices": ["12 Ω", "6 Ω", "3 Ω", "1.5 Ω"], "answer": "C", "explanation": "1/R = 1/6 + 1/6 = 1/3, so R = 3 Ω." },
+      { "prompt": "A 12 V battery is connected across a 4 Ω resistor. What current flows?", "choices": ["3 A", "48 A", "0.33 A", "8 A"], "answer": "A", "explanation": "Ohm's law: I = V/R = 12/4 = 3 A." }
+    ],
+    "waves-sound-light": [
+      { "prompt": "A sound source moves toward you. The frequency you hear is:", "choices": ["Lower than emitted", "Higher than emitted", "The same as emitted", "Zero"], "answer": "B", "explanation": "The Doppler effect: approaching sources compress the waves, so the observed frequency rises." },
+      { "prompt": "Light passes from air into water. It bends:", "choices": ["Away from the normal, because it speeds up", "Toward the normal, because it slows down", "Not at all", "Toward the normal, because it speeds up"], "answer": "B", "explanation": "Water has a higher refractive index, so light slows down and bends toward the normal (Snell's law)." },
+      { "prompt": "A converging lens forms a real, inverted image when the object is:", "choices": ["Inside the focal length", "Beyond the focal length", "Touching the lens", "Never"], "answer": "B", "explanation": "Objects beyond f give real, inverted images. Objects inside f give virtual, upright, magnified images." }
+    ],
+    "atoms-nuclear": [
+      { "prompt": "A radioactive sample has a half-life of 5 days. What fraction remains after 15 days?", "choices": ["1/2", "1/4", "1/8", "1/16"], "answer": "C", "explanation": "15 days is 3 half-lives, so (1/2)³ = 1/8 remains." },
+      { "prompt": "In beta-minus decay:", "choices": ["A neutron becomes a proton and an electron is emitted", "A proton becomes a neutron", "A helium nucleus is emitted", "Only a gamma ray is emitted"], "answer": "A", "explanation": "β− decay turns a neutron into a proton, so the atomic number rises by 1 and the mass number stays the same." },
+      { "prompt": "What is the maximum number of electrons a p subshell can hold?", "choices": ["2", "6", "10", "14"], "answer": "B", "explanation": "A p subshell has 3 orbitals with 2 electrons each, so it holds 6." }
+    ],
+    "bonding-periodic": [
+      { "prompt": "Moving left to right across a period, atomic radius generally:", "choices": ["Increases", "Decreases", "Stays the same", "Increases, then decreases"], "answer": "B", "explanation": "Effective nuclear charge rises across a period, pulling electrons closer." },
+      { "prompt": "What is the molecular geometry of water?", "choices": ["Linear", "Bent", "Trigonal planar", "Tetrahedral"], "answer": "B", "explanation": "Oxygen has 2 bonds and 2 lone pairs. The electron geometry is tetrahedral, but the molecular shape is bent." },
+      { "prompt": "Which element has the highest electronegativity?", "choices": ["Oxygen", "Fluorine", "Chlorine", "Nitrogen"], "answer": "B", "explanation": "Fluorine is the most electronegative element." }
+    ],
+    "gases-solutions": [
+      { "prompt": "At constant temperature, the pressure on a gas doubles. Its volume:", "choices": ["Doubles", "Halves", "Stays the same", "Quadruples"], "answer": "B", "explanation": "Boyle's law: PV is constant, so doubling P halves V." },
+      { "prompt": "Adding a nonvolatile solute to water does what to its boiling and freezing points?", "choices": ["Raises both", "Raises boiling point and lowers freezing point", "Lowers boiling point and raises freezing point", "Lowers both"], "answer": "B", "explanation": "These are colligative properties: boiling point elevation and freezing point depression depend on the number of dissolved particles." },
+      { "prompt": "At STP (0 °C and 1 atm), one mole of an ideal gas takes up about:", "choices": ["11.2 L", "22.4 L", "1.0 L", "44.8 L"], "answer": "B", "explanation": "V = nRT/P ≈ 22.4 L for 1 mol at 273 K and 1 atm." }
+    ],
+    "thermo-kinetics-equilibrium": [
+      { "prompt": "A reaction is spontaneous at every temperature when:", "choices": ["ΔH < 0 and ΔS > 0", "ΔH > 0 and ΔS < 0", "ΔH > 0 and ΔS > 0", "ΔH < 0 and ΔS < 0"], "answer": "A", "explanation": "ΔG = ΔH − TΔS. A negative ΔH and a positive ΔS make ΔG negative at any temperature." },
+      { "prompt": "A catalyst:", "choices": ["Lowers the activation energy and speeds up both the forward and reverse reactions", "Shifts the equilibrium toward products", "Makes ΔG more negative", "Is used up in the reaction"], "answer": "A", "explanation": "Catalysts speed up reaching equilibrium but don't change where equilibrium lies or ΔG." },
+      { "prompt": "For N₂ + 3H₂ ⇌ 2NH₃, raising the pressure by shrinking the volume shifts the equilibrium:", "choices": ["Toward the reactants", "Toward the products, which have fewer moles of gas", "Nowhere", "Toward whichever side is endothermic"], "answer": "B", "explanation": "Le Chatelier: the system relieves the pressure by shifting to the side with fewer gas moles (2 vs 4)." }
+    ],
+    "acids-bases": [
+      { "prompt": "What is the pH of 0.001 M HCl?", "choices": ["1", "2", "3", "11"], "answer": "C", "explanation": "HCl is a strong acid, so [H+] = 10⁻³ M and pH = 3." },
+      { "prompt": "A buffer resists pH change best when the pH is close to:", "choices": ["The pKa of its weak acid", "7", "14 minus the pKa", "0"], "answer": "A", "explanation": "At pH = pKa, the acid and its conjugate base are present in equal amounts, which gives the most buffering capacity." },
+      { "prompt": "At 25 °C, a solution has [H+] = 1 × 10⁻⁴ M. What is [OH-]?", "choices": ["1 × 10⁻⁴ M", "1 × 10⁻¹⁰ M", "1 × 10⁻⁷ M", "1 × 10⁻¹⁴ M"], "answer": "B", "explanation": "Kw = [H+][OH-] = 10⁻¹⁴, so [OH-] = 10⁻¹⁴ / 10⁻⁴ = 10⁻¹⁰ M." }
+    ],
+    "electrochemistry": [
+      { "prompt": "In any electrochemical cell, oxidation happens at the:", "choices": ["Cathode", "Anode", "Salt bridge", "Both electrodes equally"], "answer": "B", "explanation": "An Ox, Red Cat: oxidation at the anode, reduction at the cathode." },
+      { "prompt": "A galvanic (voltaic) cell has:", "choices": ["A positive E°cell and a negative ΔG", "A negative E°cell and a positive ΔG", "ΔG equal to zero", "A positive ΔG and a positive E°cell"], "answer": "A", "explanation": "ΔG = −nFE. A spontaneous cell has a positive E and a negative ΔG." },
+      { "prompt": "In the reaction Zn + Cu²⁺ → Zn²⁺ + Cu, what is the oxidizing agent?", "choices": ["Zn", "Cu²⁺", "Zn²⁺", "Cu"], "answer": "B", "explanation": "Cu²⁺ gains electrons (is reduced), so it is the oxidizing agent. Zn is oxidized." }
+    ],
+    "organic": [
+      { "prompt": "Two molecules that are non-superimposable mirror images of each other are:", "choices": ["Diastereomers", "Enantiomers", "Constitutional isomers", "Conformers"], "answer": "B", "explanation": "Enantiomers are mirror images. Diastereomers are stereoisomers that are not mirror images." },
+      { "prompt": "An SN2 reaction at a chiral carbon gives:", "choices": ["A racemic mixture", "Inversion of configuration", "Retention of configuration", "A carbocation intermediate"], "answer": "B", "explanation": "The nucleophile attacks from the back side in one step, flipping the configuration." },
+      { "prompt": "Which group defines a carboxylic acid?", "choices": ["–OH on an alkyl chain", "–COOH", "–CHO", "–NH₂"], "answer": "B", "explanation": "A carboxylic acid has a carbonyl and a hydroxyl on the same carbon (–COOH). –CHO is an aldehyde." }
+    ],
+    "lab-techniques": [
+      { "prompt": "In an IR spectrum, a strong, sharp peak near 1700 cm⁻¹ suggests:", "choices": ["An O–H bond", "A C=O (carbonyl) bond", "A C–H bond", "An N–H bond"], "answer": "B", "explanation": "Carbonyl stretches appear around 1700 cm⁻¹. O–H gives a broad peak around 3200–3600 cm⁻¹." },
+      { "prompt": "SDS-PAGE separates proteins mainly by:", "choices": ["Charge", "Size (molecular weight)", "Isoelectric point", "Hydrophobicity"], "answer": "B", "explanation": "SDS unfolds proteins and coats them with negative charge, so they migrate by size." },
+      { "prompt": "Simple distillation separates liquids based on differences in:", "choices": ["Boiling point", "Density", "Color", "Molar mass only"], "answer": "A", "explanation": "The liquid with the lower boiling point vaporizes first and is collected after condensing." }
+    ],
+    "sensation-perception": [
+      { "prompt": "Weber's law says the just-noticeable difference is:", "choices": ["A constant proportion of the original stimulus", "A constant absolute amount", "Unrelated to the original stimulus", "Always one unit"], "answer": "A", "explanation": "A brighter or heavier starting stimulus needs a proportionally larger change to be noticed." },
+      { "prompt": "Processing that starts with raw sensory input and builds up to a perception is:", "choices": ["Top-down processing", "Bottom-up processing", "Parallel processing", "Gestalt closure"], "answer": "B", "explanation": "Bottom-up processing is driven by the stimulus. Top-down processing uses expectations and prior knowledge." },
+      { "prompt": "Compared with cones, rods:", "choices": ["Detect color", "Work well in dim light", "Are packed into the fovea", "Give the sharpest detail"], "answer": "B", "explanation": "Rods are very light-sensitive and handle night vision. Cones handle color and fine detail, mostly in the fovea." }
+    ],
+    "consciousness-sleep": [
+      { "prompt": "The most vivid dreaming happens during:", "choices": ["Stage N1 sleep", "Stage N3 (slow-wave) sleep", "REM sleep", "Relaxed wakefulness"], "answer": "C", "explanation": "REM sleep has active, wake-like brain waves and the most vivid dreams, while the body's muscles are largely paralyzed." },
+      { "prompt": "The body's master circadian clock is the:", "choices": ["Pineal gland", "Suprachiasmatic nucleus of the hypothalamus", "Pituitary gland", "Amygdala"], "answer": "B", "explanation": "The SCN takes in light signals from the retina and sets daily rhythms. It signals the pineal gland to release melatonin." },
+      { "prompt": "Which of these is a central nervous system depressant?", "choices": ["Cocaine", "Alcohol", "Amphetamine", "Caffeine"], "answer": "B", "explanation": "Alcohol enhances GABA activity and slows the nervous system. The others are stimulants." }
+    ],
+    "learning-memory": [
+      { "prompt": "In Pavlov's experiment, after conditioning, the bell is the:", "choices": ["Unconditioned stimulus", "Conditioned stimulus", "Unconditioned response", "Conditioned response"], "answer": "B", "explanation": "The bell started out neutral. After being paired with food, it became a conditioned stimulus that triggers salivation." },
+      { "prompt": "Taking away an unpleasant stimulus to make a behavior more likely is:", "choices": ["Positive reinforcement", "Negative reinforcement", "Positive punishment", "Negative punishment"], "answer": "B", "explanation": "Reinforcement increases a behavior. 'Negative' means something is removed, such as an alarm turning off when you buckle your seatbelt." },
+      { "prompt": "The hippocampus is most important for:", "choices": ["Forming new explicit (declarative) long-term memories", "Storing motor skills only", "Controlling heart rate", "Producing hormones"], "answer": "A", "explanation": "Hippocampal damage impairs forming new facts and events (anterograde amnesia), while procedural skills can still be learned." }
+    ],
+    "cognition-language": [
+      { "prompt": "Judging how likely something is by how easily examples come to mind is the:", "choices": ["Representativeness heuristic", "Availability heuristic", "Anchoring effect", "Confirmation bias"], "answer": "B", "explanation": "Vivid, memorable events (like plane crashes) feel more common than they are because they're easy to recall." },
+      { "prompt": "Damage to Broca's area mainly causes:", "choices": ["Trouble producing fluent speech", "Trouble understanding speech", "Loss of vision", "Loss of long-term memory"], "answer": "A", "explanation": "Broca's aphasia gives halting, effortful speech with fairly intact comprehension. Wernicke's area damage affects comprehension." },
+      { "prompt": "Looking only for information that supports what you already believe is:", "choices": ["Confirmation bias", "Hindsight bias", "Functional fixedness", "Belief perseverance"], "answer": "A", "explanation": "Confirmation bias is favoring evidence that agrees with existing beliefs." }
+    ],
+    "emotion-motivation-stress": [
+      { "prompt": "Which theory says we feel an emotion because we notice our body's physical reaction first?", "choices": ["James-Lange theory", "Cannon-Bard theory", "Schachter-Singer two-factor theory", "Drive-reduction theory"], "answer": "A", "explanation": "James-Lange: physiological arousal comes first, and the emotion is our perception of it. Cannon-Bard says they happen at the same time." },
+      { "prompt": "According to the Yerkes-Dodson law, performance is usually best at:", "choices": ["Very low arousal", "Moderate arousal", "Very high arousal", "No arousal"], "answer": "B", "explanation": "Performance follows an inverted U: too little or too much arousal hurts it." },
+      { "prompt": "The main stress hormone released by the adrenal cortex is:", "choices": ["Cortisol", "Insulin", "Oxytocin", "Melatonin"], "answer": "A", "explanation": "The HPA axis ends with the adrenal cortex releasing cortisol, which raises blood glucose and suppresses inflammation." }
+    ],
+    "personality-disorders": [
+      { "prompt": "Which list gives the Big Five personality traits?", "choices": ["Openness, conscientiousness, extraversion, agreeableness, neuroticism", "Id, ego, superego, libido, defense", "Introversion, intuition, thinking, judging, perceiving", "Trust, autonomy, initiative, industry, identity"], "answer": "A", "explanation": "The Big Five (OCEAN) is the most widely used trait model of personality." },
+      { "prompt": "Hallucinations and delusions are 'positive' symptoms of:", "choices": ["Major depressive disorder", "Schizophrenia", "Generalized anxiety disorder", "Obsessive-compulsive disorder"], "answer": "B", "explanation": "Positive symptoms are added experiences, such as hallucinations and delusions. Negative symptoms are losses, such as flat affect." },
+      { "prompt": "In Freud's theory, which part of personality balances impulses against reality?", "choices": ["Id", "Ego", "Superego", "Libido"], "answer": "B", "explanation": "The ego follows the reality principle and mediates between the id's drives and the superego's moral standards." }
+    ],
+    "development-identity": [
+      { "prompt": "In Erikson's theory, the main conflict of adolescence is:", "choices": ["Trust vs. mistrust", "Identity vs. role confusion", "Intimacy vs. isolation", "Integrity vs. despair"], "answer": "B", "explanation": "Teens explore roles and values to form a stable sense of self." },
+      { "prompt": "In Piaget's theory, a child develops object permanence during the:", "choices": ["Sensorimotor stage", "Preoperational stage", "Concrete operational stage", "Formal operational stage"], "answer": "A", "explanation": "Object permanence develops in the sensorimotor stage (birth to about age 2)." },
+      { "prompt": "An infant is upset when the caregiver leaves and is easily comforted when they return. This is:", "choices": ["Secure attachment", "Avoidant attachment", "Ambivalent (resistant) attachment", "Disorganized attachment"], "answer": "A", "explanation": "In the Strange Situation, securely attached infants use the caregiver as a safe base and are soothed when they come back." }
+    ],
+    "social-psychology": [
+      { "prompt": "Explaining someone else's behavior by their personality while underestimating the situation is the:", "choices": ["Fundamental attribution error", "Self-serving bias", "Halo effect", "Just-world hypothesis"], "answer": "A", "explanation": "We over-weight dispositional causes for other people's actions." },
+      { "prompt": "The bystander effect says that people are:", "choices": ["Less likely to help when other people are present", "More likely to help when other people are present", "Always willing to help strangers", "Only willing to help family"], "answer": "A", "explanation": "With more onlookers, responsibility is spread out (diffusion of responsibility), so each person is less likely to act." },
+      { "prompt": "Milgram's famous experiments studied:", "choices": ["Conformity to a group's judgments", "Obedience to authority", "Bystander behavior", "Cognitive dissonance"], "answer": "B", "explanation": "Milgram studied how far people would follow an authority figure's orders. Asch studied conformity." }
+    ],
+    "sociological-theory": [
+      { "prompt": "Which perspective views society as interrelated parts that work together to keep it stable?", "choices": ["Conflict theory", "Structural functionalism", "Symbolic interactionism", "Social constructionism"], "answer": "B", "explanation": "Functionalism asks what each part of society, such as family or school, does to keep the whole stable." },
+      { "prompt": "Symbolic interactionism focuses on:", "choices": ["Large-scale social structures", "The meanings people create in everyday interactions", "Conflict between classes over resources", "Biological instincts"], "answer": "B", "explanation": "It is a micro-level view of how people use symbols and shared meanings in interaction." },
+      { "prompt": "An unintended and often unrecognized consequence of a social institution is a:", "choices": ["Manifest function", "Latent function", "Folkway", "Sanction"], "answer": "B", "explanation": "Manifest functions are intended. For example, college's manifest function is education, and a latent function is meeting a future spouse." }
+    ],
+    "culture-socialization": [
+      { "prompt": "Material culture refers to:", "choices": ["Shared beliefs and values", "The physical objects people make and use", "The language of a group", "A group's rules of behavior"], "answer": "B", "explanation": "Material culture is physical things (tools, clothing, buildings). Beliefs, values and norms are nonmaterial culture." },
+      { "prompt": "Informal norms whose violation brings only mild disapproval are called:", "choices": ["Mores", "Folkways", "Laws", "Taboos"], "answer": "B", "explanation": "Folkways are everyday customs. Breaking mores or taboos brings strong moral disapproval." },
+      { "prompt": "Merton's strain theory explains deviance as a result of:", "choices": ["A gap between cultural goals and the legitimate means to reach them", "Learning from close associates", "Being labeled deviant by others", "Biological traits"], "answer": "A", "explanation": "When people can't reach accepted goals by accepted means, some turn to deviant means. Learning from associates is differential association." }
+    ],
+    "inequality-demographics": [
+      { "prompt": "Ending up in a different social class than your parents is:", "choices": ["Intragenerational mobility", "Intergenerational mobility", "Horizontal mobility", "Social reproduction"], "answer": "B", "explanation": "Intergenerational mobility compares generations. Intragenerational mobility is change within one person's lifetime." },
+      { "prompt": "In the classic demographic transition model, which stage has low birth rates and low death rates?", "choices": ["Stage 1", "Stage 2", "Stage 3", "Stage 4"], "answer": "D", "explanation": "Stage 1 is high/high, stage 2 has falling death rates, stage 3 has falling birth rates, and stage 4 is low/low." },
+      { "prompt": "Bourdieu's 'cultural capital' refers to:", "choices": ["Money and property", "Non-financial assets like education, tastes and skills that help a person get ahead", "The size of a person's social network", "Government benefits"], "answer": "B", "explanation": "Cultural capital is know-how and credentials valued by society. Social networks are social capital." }
+    ],
+    "cars-passages": [
+      {
+        "passage": "For most of history, maps were not neutral pictures of the land but arguments about it. A medieval mappa mundi placed Jerusalem at its center not because its makers misjudged distances, but because they were mapping meaning rather than miles. Modern readers tend to treat such maps as failed attempts at accuracy, yet this judgment assumes that accuracy was the goal. The same assumption hides the persuasive work of our own maps. A road atlas that shows highways in thick red lines and footpaths not at all tells drivers what matters, and in doing so quietly shapes which towns grow and which ones fade. The point is not that every map lies. It is that every map selects, and selection is a choice made by someone for some purpose. To read a map well, then, is to ask not only whether it is correct, but what it was made to help its users do, and what it was made to help them ignore.",
+        "questions": [
+          { "prompt": "Which statement best expresses the author's main point?", "choices": ["Medieval maps were less accurate than modern maps.", "Every map reflects choices about what to show, made for some purpose.", "Road atlases should include footpaths.", "Maps should not be trusted."], "answer": "B", "explanation": "The passage builds to 'every map selects, and selection is a choice made by someone for some purpose.'" },
+          { "prompt": "The author mentions the road atlas mainly in order to:", "choices": ["Show that modern maps can persuade, too", "Criticize car culture", "Prove that modern maps are inaccurate", "Contrast modern accuracy with medieval error"], "answer": "A", "explanation": "The atlas example follows 'The same assumption hides the persuasive work of our own maps.'" },
+          { "prompt": "The author would most likely agree that:", "choices": ["A perfectly accurate map would make no selections.", "Judging old maps only by accuracy can misread their purpose.", "Maps have no effect on how towns develop.", "Most mapmakers intend to deceive."], "answer": "B", "explanation": "The author says judging the mappa mundi as a failed attempt at accuracy 'assumes that accuracy was the goal.' The passage also explicitly denies that every map lies." }
+        ]
+      },
+      {
+        "passage": "Each generation of listeners seems certain that music was better when they were young. Critics often dismiss this as simple nostalgia, but the explanation may be partly statistical. The songs that survive from any decade are a small, filtered sample: the ones that were good enough, or lucky enough, to keep being played. Listeners compare that curated past with the unfiltered present, where the forgettable majority has not yet been forgotten. The comparison is unfair in a way that no amount of taste can correct. This does not mean that all eras are equal; some periods may genuinely have fostered more innovation, through new instruments, new recording technology, or new audiences. But claims about a golden age should be made with the filter in mind. A fair test would compare the past's survivors with the present's future survivors, an experiment we can only finish decades from now.",
+        "questions": [
+          { "prompt": "In the passage, the 'filter' refers to:", "choices": ["Listeners' preference for familiar songs", "The process by which only some songs keep being played over time", "Recording technology that removes noise", "Critics' published reviews"], "answer": "B", "explanation": "The filtered sample is 'the ones that were good enough, or lucky enough, to keep being played.'" },
+          { "prompt": "How would the author most likely respond to the claim that music from the 1970s was better than today's?", "choices": ["Agree, because older music was more innovative", "Point out that the claim compares the past's best songs with all of today's songs", "Insist that all musical eras are exactly equal", "Deny that nostalgia exists"], "answer": "B", "explanation": "The author's central point is that the 'curated past' is compared with the 'unfiltered present.' The author also says 'this does not mean that all eras are equal.'" },
+          { "prompt": "According to the passage, some eras may really have been more innovative because of:", "choices": ["Survivorship bias", "New instruments, recording technology, or audiences", "Better-trained critics", "Fewer songs being released"], "answer": "B", "explanation": "The passage names 'new instruments, new recording technology, or new audiences' as possible real sources of innovation." }
+        ]
+      }
+    ]
+  }
+}

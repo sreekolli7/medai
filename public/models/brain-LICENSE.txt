@@ -1,0 +1,15 @@
+brain.glb — 3D anatomy model used by MedAi
+
+Source: BodyParts3D, © The Database Center for Life Science (DBCLS), Japan.
+Licensed under Creative Commons Attribution-ShareAlike 2.1 Japan
+https://creativecommons.org/licenses/by-sa/2.1/jp/
+https://lifesciencedb.jp/bp3d/
+
+Meshes obtained from https://github.com/olivercase/body_parts_3d_api (BodyParts3D 4.3).
+
+Changes made by MedAi (scripts/build-anatomy-models.ts): selected meshes merged per
+structure, re-centered, re-oriented to an anterior view, scaled, normals computed,
+simplified, and meshopt-compressed into glTF binary.
+
+This adapted model is distributed under the same license, CC BY-SA 2.1 Japan.
+The MedAi application code is not part of this license.

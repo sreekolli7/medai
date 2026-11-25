@@ -1,0 +1,600 @@
+{
+  "note": "Draft notes written by MedAi. Every part is loaded with reviewed = false and needs expert review before it can show a Verified badge.",
+  "models": {
+    "brain": [
+      {
+        "id": "brain-frontal-lobe",
+        "name": "Frontal lobe",
+        "topic": "nervous-endocrine",
+        "explanation": "The front of the cerebrum. It plans, makes decisions, controls impulses and holds information in working memory. The prefrontal cortex at the very front is often called the brain's executive center.",
+        "pearl": "Phineas Gage survived an iron rod through his frontal lobe, and his personality and impulse control changed. Classic MCAT example of frontal lobe function."
+      },
+      {
+        "id": "brain-broca-area",
+        "name": "Left inferior frontal gyrus (Broca's area)",
+        "topic": "cognition-language",
+        "explanation": "The lowest fold of the left frontal lobe; the model highlights the whole gyrus. Its back part is Broca's area, which in most people plans the movements of speech and handles grammar.",
+        "pearl": "Damage causes Broca's (expressive) aphasia: slow, effortful speech while understanding stays mostly intact. Wernicke's area in the temporal lobe handles comprehension."
+      },
+      {
+        "id": "brain-motor-cortex",
+        "name": "Primary motor cortex",
+        "topic": "nervous-endocrine",
+        "explanation": "The precentral gyrus, at the back edge of the frontal lobe. It sends commands for voluntary movement to muscles on the opposite side of the body.",
+        "pearl": "Body parts are mapped as a motor homunculus, with oversized areas for the hands and face. Control is contralateral: the left cortex moves the right side."
+      },
+      {
+        "id": "brain-somatosensory-cortex",
+        "name": "Primary somatosensory cortex",
+        "topic": "nervous-endocrine",
+        "explanation": "The postcentral gyrus, at the front of the parietal lobe. It receives touch, pain, temperature and body-position signals from the opposite side of the body.",
+        "pearl": "The central sulcus separates motor cortex (in front) from somatosensory cortex (behind). Both have a homunculus map."
+      },
+      {
+        "id": "brain-parietal-lobe",
+        "name": "Parietal lobe",
+        "topic": "nervous-endocrine",
+        "explanation": "The upper back part of the cerebrum. It combines sensory information and handles spatial awareness and attention.",
+        "pearl": "Damage to the right parietal lobe can cause hemispatial neglect: the person ignores the left side of space."
+      },
+      {
+        "id": "brain-temporal-lobe",
+        "name": "Temporal lobe",
+        "topic": "nervous-endocrine",
+        "explanation": "The side of the cerebrum, below the lateral sulcus. It contains the primary auditory cortex, Wernicke's area for language comprehension (usually left), and, on its inner surface, memory structures.",
+        "pearl": "Wernicke's (receptive) aphasia: fluent speech that makes little sense, with poor comprehension."
+      },
+      {
+        "id": "brain-occipital-lobe",
+        "name": "Occipital lobe",
+        "topic": "sensation-perception",
+        "explanation": "The back of the cerebrum. It contains the primary visual cortex, which processes what the eyes see.",
+        "pearl": "Each occipital lobe sees the opposite visual field: the left visual field is processed by the right occipital lobe."
+      },
+      {
+        "id": "brain-limbic-cortex",
+        "name": "Limbic lobe (cingulate and parahippocampal gyri)",
+        "topic": "emotion-motivation-stress",
+        "explanation": "The ring of cortex on the inner surface of each hemisphere, around the corpus callosum. It links emotion, motivation and memory.",
+        "pearl": "The limbic system includes the cingulate cortex, hippocampus, amygdala and hypothalamus."
+      },
+      {
+        "id": "brain-insula",
+        "name": "Insula",
+        "topic": "nervous-endocrine",
+        "explanation": "Cortex folded deep inside the lateral sulcus. It processes taste and awareness of the body's internal state, and is involved in feelings like disgust.",
+        "pearl": "The primary gustatory (taste) cortex is in the insula."
+      },
+      {
+        "id": "brain-corpus-callosum",
+        "name": "Corpus callosum",
+        "topic": "nervous-endocrine",
+        "explanation": "A thick band of nerve fibers that connects the left and right hemispheres so they can share information.",
+        "pearl": "In split-brain patients, an object shown only in the left visual field reaches the right hemisphere, which usually can't produce speech, so the person can't name it."
+      },
+      {
+        "id": "brain-thalamus",
+        "name": "Thalamus",
+        "topic": "nervous-endocrine",
+        "explanation": "A pair of egg-shaped relay stations deep in the brain. Almost all sensory signals pass through it on their way to the cortex.",
+        "pearl": "Smell is the one sense that doesn't relay through the thalamus before reaching the cortex."
+      },
+      {
+        "id": "brain-hypothalamus",
+        "name": "Hypothalamus",
+        "topic": "nervous-endocrine",
+        "explanation": "A small region below the thalamus that keeps the body in balance: temperature, hunger, thirst, sleep cycles. It also controls the pituitary gland.",
+        "pearl": "The suprachiasmatic nucleus of the hypothalamus is the master circadian clock. Lateral hypothalamus lesions reduce hunger; ventromedial lesions cause overeating."
+      },
+      {
+        "id": "brain-pituitary",
+        "name": "Pituitary gland",
+        "topic": "nervous-endocrine",
+        "explanation": "A pea-sized gland hanging below the hypothalamus. The anterior pituitary releases GH, TSH, ACTH, FSH, LH and prolactin. The posterior pituitary releases ADH and oxytocin, which are made in the hypothalamus.",
+        "pearl": "Remember the anterior hormones with \"FLAT PiG\": FSH, LH, ACTH, TSH, Prolactin, (i), GH. The LH surge triggers ovulation."
+      },
+      {
+        "id": "brain-pineal",
+        "name": "Pineal gland",
+        "topic": "consciousness-sleep",
+        "explanation": "A tiny gland near the center of the brain that releases melatonin, mostly in darkness.",
+        "pearl": "Light reaching the retina suppresses melatonin release, which is why screens at night can delay sleep."
+      },
+      {
+        "id": "brain-hippocampus",
+        "name": "Hippocampus",
+        "topic": "learning-memory",
+        "explanation": "A curved structure inside the temporal lobe. It turns new experiences and facts into long-term explicit memories and helps with spatial navigation.",
+        "pearl": "Patient H.M. had both hippocampi removed: he couldn't form new explicit memories (anterograde amnesia) but could still learn new motor skills."
+      },
+      {
+        "id": "brain-amygdala",
+        "name": "Amygdala",
+        "topic": "emotion-motivation-stress",
+        "explanation": "An almond-shaped cluster in front of the hippocampus. It detects threats, drives fear responses and tags memories with emotion.",
+        "pearl": "Bilateral amygdala damage (Klüver-Bucy syndrome) causes loss of fear, putting objects in the mouth, and hypersexuality."
+      },
+      {
+        "id": "brain-basal-ganglia",
+        "name": "Basal ganglia",
+        "topic": "nervous-endocrine",
+        "explanation": "A group of deep nuclei (caudate, putamen, globus pallidus) that help start wanted movements, suppress unwanted ones, and form habits.",
+        "pearl": "Parkinson's disease: loss of dopamine neurons in the substantia nigra, which feed the basal ganglia. Huntington's disease: degeneration of the caudate."
+      },
+      {
+        "id": "brain-midbrain",
+        "name": "Midbrain",
+        "topic": "nervous-endocrine",
+        "explanation": "The top of the brainstem. It handles visual and auditory reflexes and contains the substantia nigra.",
+        "pearl": "Superior colliculi: visual orienting reflexes. Inferior colliculi: auditory reflexes."
+      },
+      {
+        "id": "brain-pons",
+        "name": "Pons",
+        "topic": "consciousness-sleep",
+        "explanation": "The middle of the brainstem. It relays signals between the cerebrum and cerebellum, helps regulate breathing, and is involved in sleep.",
+        "pearl": "Circuits in the pons help switch on REM sleep and the muscle paralysis that comes with it."
+      },
+      {
+        "id": "brain-medulla",
+        "name": "Medulla oblongata",
+        "topic": "nervous-endocrine",
+        "explanation": "The lowest part of the brainstem, joining the spinal cord. It controls automatic functions: breathing rate, heart rate, blood pressure, swallowing and vomiting.",
+        "pearl": "Central chemoreceptors near the medulla respond mainly to rising CO2 (via H+ in cerebrospinal fluid) and increase breathing."
+      },
+      {
+        "id": "brain-cerebellum",
+        "name": "Cerebellum",
+        "topic": "nervous-endocrine",
+        "explanation": "The \"little brain\" at the back, below the occipital lobe. It coordinates movement, balance and timing, and helps learn motor skills.",
+        "pearl": "Damage causes ataxia (clumsy, uncoordinated movement). Alcohol impairs the cerebellum, which is why sobriety tests check balance."
+      },
+      {
+        "id": "brain-ventricles",
+        "name": "Ventricles",
+        "topic": "nervous-endocrine",
+        "explanation": "Connected fluid-filled spaces inside the brain. The choroid plexus in them makes cerebrospinal fluid, which cushions the brain and spinal cord.",
+        "pearl": "If cerebrospinal fluid can't drain, it builds up and enlarges the ventricles (hydrocephalus)."
+      }
+    ],
+    "eye": [
+      {
+        "id": "eye-cornea",
+        "name": "Cornea",
+        "topic": "sensation-perception",
+        "explanation": "The clear dome at the front of the eye. Light bends most as it enters the cornea, so it does most of the eye's focusing.",
+        "pearl": "The cornea provides about two-thirds of the eye's focusing power, but its power is fixed. LASIK works by reshaping it."
+      },
+      {
+        "id": "eye-anterior-chamber",
+        "name": "Anterior chamber (aqueous humor)",
+        "topic": "sensation-perception",
+        "explanation": "The space between the cornea and the iris, filled with watery aqueous humor that nourishes the cornea and lens and keeps the eye's pressure up.",
+        "pearl": "If aqueous humor can't drain (through the canal of Schlemm), eye pressure rises and can damage the optic nerve: glaucoma."
+      },
+      {
+        "id": "eye-iris",
+        "name": "Iris",
+        "topic": "sensation-perception",
+        "explanation": "The colored ring of muscle that controls the size of the pupil and so how much light gets in.",
+        "pearl": "Parasympathetic signals constrict the pupil; sympathetic signals dilate it (fight or flight)."
+      },
+      {
+        "id": "eye-lens",
+        "name": "Lens",
+        "topic": "waves-sound-light",
+        "explanation": "A clear, flexible converging lens behind the iris. It changes shape to fine-tune focus for near or far objects (accommodation).",
+        "pearl": "For near vision the ciliary muscle contracts, the zonule fibers slacken, and the lens rounds up. With age the lens stiffens (presbyopia); clouding of the lens is a cataract."
+      },
+      {
+        "id": "eye-zonule",
+        "name": "Ciliary zonule",
+        "topic": "sensation-perception",
+        "explanation": "A ring of fine fibers that holds the lens in place and connects it to the ciliary body.",
+        "pearl": "Ciliary muscle contraction relaxes the tension on these fibers, letting the lens thicken to focus on close objects."
+      },
+      {
+        "id": "eye-vitreous",
+        "name": "Vitreous body",
+        "topic": "sensation-perception",
+        "explanation": "The clear gel that fills the back of the eye and helps keep its round shape.",
+        "pearl": "\"Floaters\" are small clumps in the vitreous casting shadows on the retina."
+      },
+      {
+        "id": "eye-sclera",
+        "name": "Sclera",
+        "topic": "sensation-perception",
+        "explanation": "The tough white outer coat of the eye. The fine red branching lines on it are conjunctival and episcleral blood vessels. It protects the eye, keeps its shape, and anchors the muscles that move it.",
+        "pearl": "At the front, the sclera is continuous with the clear cornea. The vessels stop at that border; the cornea itself has no blood vessels."
+      },
+      {
+        "id": "eye-choroid",
+        "name": "Choroid",
+        "topic": "sensation-perception",
+        "explanation": "A layer rich in blood vessels between the sclera and the retina. It nourishes the outer retina, and its pigment absorbs stray light.",
+        "pearl": "The choroid, ciliary body and iris together form the uvea."
+      },
+      {
+        "id": "eye-retina",
+        "name": "Retina",
+        "topic": "sensation-perception",
+        "explanation": "The light-sensitive inner layer. Rods work in dim light and see in shades of gray; cones need more light and detect color and fine detail.",
+        "pearl": "The fovea has only cones (sharpest vision). Rods are concentrated away from the center, which is why looking slightly to the side of a faint star helps you see it."
+      },
+      {
+        "id": "eye-optic-nerve",
+        "name": "Optic nerve",
+        "topic": "sensation-perception",
+        "explanation": "A bundle of retinal ganglion cell axons that carries visual signals from the eye to the brain.",
+        "pearl": "Where the optic nerve leaves the eye there are no photoreceptors, creating a blind spot. Fibers from the nasal half of each retina cross at the optic chiasm."
+      },
+      {
+        "id": "eye-ophthalmic-artery",
+        "name": "Ophthalmic artery",
+        "topic": "sensation-perception",
+        "blood": "oxygen-rich",
+        "explanation": "The artery to the eye and the orbit. It branches off the internal carotid artery and enters the orbit through the optic canal, then gives off the vessels that supply the retina, choroid and the front of the eye.",
+        "pearl": "The ophthalmic artery is a branch of the internal carotid. Its most important branch for vision is the central retinal artery."
+      },
+      {
+        "id": "eye-central-retinal-artery",
+        "name": "Central retinal artery",
+        "topic": "sensation-perception",
+        "blood": "oxygen-rich",
+        "explanation": "A branch of the ophthalmic artery that travels inside the optic nerve and then spreads across the inner surface of the retina. It supplies the inner layers of the retina.",
+        "pearl": "This is an end artery. A blockage (central retinal artery occlusion) causes sudden, painless loss of vision in that eye. The outer retina is fed separately, by the choroid."
+      },
+      {
+        "id": "eye-ciliary-artery",
+        "name": "Long posterior ciliary artery",
+        "topic": "sensation-perception",
+        "blood": "oxygen-rich",
+        "explanation": "An artery that runs forward between the sclera and the choroid to the front of the eye, where it supplies the ciliary body and helps form the arterial circle of the iris.",
+        "pearl": "The short posterior ciliary arteries, not this one, supply the choroid. The long ones continue forward to the ciliary body and iris."
+      },
+      {
+        "id": "eye-lacrimal-artery",
+        "name": "Lacrimal artery",
+        "topic": "sensation-perception",
+        "blood": "oxygen-rich",
+        "explanation": "A branch of the ophthalmic artery that runs along the outer side of the orbit to the lacrimal gland and the outer eyelid.",
+        "pearl": "The lacrimal gland makes the watery part of tears. It sits in the upper outer orbit, which is where this artery is headed."
+      },
+      {
+        "id": "eye-central-retinal-vein",
+        "name": "Central retinal vein",
+        "topic": "sensation-perception",
+        "blood": "oxygen-poor",
+        "explanation": "The vein that drains blood from the retina. It leaves the eye through the optic nerve, next to the central retinal artery.",
+        "pearl": "Central retinal vein occlusion causes sudden blurred vision, with hemorrhages spread across the retina."
+      },
+      {
+        "id": "eye-ophthalmic-veins",
+        "name": "Ophthalmic veins",
+        "topic": "sensation-perception",
+        "blood": "oxygen-poor",
+        "explanation": "The superior and inferior ophthalmic veins drain blood from the orbit. The superior ophthalmic vein empties into the cavernous sinus, inside the skull.",
+        "pearl": "Because this vein connects the face to the cavernous sinus, an infection near the eye can spread into the skull. That is why the area around the nose and eyes is sometimes called the danger triangle."
+      }
+    ],
+    "torso": [
+      {
+        "id": "torso-trachea",
+        "name": "Trachea",
+        "topic": "respiratory",
+        "explanation": "The windpipe. Rings of cartilage keep it open, and its lining of mucus and cilia traps particles and sweeps them up and out.",
+        "pearl": "This \"mucociliary escalator\" is a nonspecific (innate) defense. Smoking damages the cilia."
+      },
+      {
+        "id": "torso-bronchi",
+        "name": "Bronchi and bronchial tree",
+        "topic": "respiratory",
+        "explanation": "The trachea splits into bronchi, which branch again and again into smaller bronchioles that lead to the alveoli.",
+        "pearl": "Bronchioles have smooth muscle. Sympathetic (beta-2) signals relax it and widen the airways, which is how asthma inhalers work."
+      },
+      {
+        "id": "torso-right-lung",
+        "name": "Right lung",
+        "topic": "respiratory",
+        "explanation": "The right lung has three lobes. Gas exchange happens by diffusion across the thin walls of millions of alveoli.",
+        "pearl": "Right lung: 3 lobes; left lung: 2 lobes, leaving room for the heart. Inhaled objects more often lodge in the right main bronchus, which is wider and more vertical."
+      },
+      {
+        "id": "torso-left-lung",
+        "name": "Left lung",
+        "topic": "respiratory",
+        "explanation": "The left lung has two lobes and a notch where the heart sits. Like the right lung, its alveoli are where oxygen enters and carbon dioxide leaves the blood.",
+        "pearl": "Surfactant from type II alveolar cells lowers surface tension so alveoli don't collapse. Premature babies may lack enough surfactant."
+      },
+      {
+        "id": "torso-diaphragm",
+        "name": "Diaphragm",
+        "topic": "respiratory",
+        "explanation": "A dome-shaped sheet of muscle between the chest and abdomen. When it contracts it flattens, the chest gets bigger, pressure inside drops, and air flows in.",
+        "pearl": "Breathing in is active; quiet breathing out is passive. It's Boyle's law: bigger volume, lower pressure. The phrenic nerve controls the diaphragm."
+      },
+      {
+        "id": "torso-heart",
+        "name": "Heart",
+        "topic": "heart",
+        "explanation": "The four-chambered pump in the middle of the chest. Open the heart model to explore its chambers and great vessels.",
+        "pearl": "The right side pumps blood to the lungs (pulmonary circuit); the left side pumps it to the body (systemic circuit)."
+      },
+      {
+        "id": "torso-thyroid",
+        "name": "Thyroid gland",
+        "topic": "nervous-endocrine",
+        "explanation": "A butterfly-shaped gland in the neck. Its hormones T3 and T4 raise the body's metabolic rate; calcitonin lowers blood calcium.",
+        "pearl": "TSH from the anterior pituitary stimulates the thyroid, and T3/T4 feed back to turn TSH down. Thyroid hormones need iodine."
+      },
+      {
+        "id": "torso-thymus",
+        "name": "Thymus",
+        "topic": "immune",
+        "explanation": "A gland behind the breastbone where T cells mature and are tested so that cells attacking the body's own tissues are removed.",
+        "pearl": "T cells mature in the Thymus; B cells mature in Bone marrow. The thymus shrinks after puberty."
+      },
+      {
+        "id": "torso-esophagus",
+        "name": "Esophagus",
+        "topic": "digestive-renal",
+        "explanation": "The muscular tube that carries food from the throat to the stomach using waves of contraction (peristalsis).",
+        "pearl": "The lower esophageal sphincter keeps stomach acid out; when it's weak, acid reflux causes heartburn."
+      },
+      {
+        "id": "torso-stomach",
+        "name": "Stomach",
+        "topic": "digestive-renal",
+        "explanation": "A J-shaped muscular bag that churns food into chyme. Its acid and the enzyme pepsin begin protein digestion.",
+        "pearl": "Parietal cells secrete HCl and intrinsic factor (needed to absorb vitamin B12). Chief cells secrete pepsinogen, which acid activates into pepsin."
+      },
+      {
+        "id": "torso-liver",
+        "name": "Liver",
+        "topic": "digestive-renal",
+        "explanation": "The largest internal organ. It makes bile, stores glycogen, processes nutrients, detoxifies drugs, makes plasma proteins like albumin and clotting factors, and turns ammonia into urea.",
+        "pearl": "Blood from the gut goes to the liver first through the hepatic portal vein, so swallowed drugs undergo first-pass metabolism."
+      },
+      {
+        "id": "torso-gallbladder",
+        "name": "Gallbladder",
+        "topic": "digestive-renal",
+        "explanation": "A small sac under the liver that stores and concentrates bile, then squeezes it into the duodenum after a fatty meal.",
+        "pearl": "CCK triggers gallbladder contraction. Bile emulsifies fat into small droplets but contains no digestive enzymes."
+      },
+      {
+        "id": "torso-pancreas",
+        "name": "Pancreas",
+        "topic": "digestive-renal",
+        "explanation": "Both a digestive and an endocrine gland. It sends enzymes and bicarbonate to the duodenum, and its islets release insulin (beta cells) and glucagon (alpha cells).",
+        "pearl": "Secretin triggers bicarbonate release; CCK triggers enzyme release. Insulin is made as proinsulin, and C-peptide is cut out."
+      },
+      {
+        "id": "torso-spleen",
+        "name": "Spleen",
+        "topic": "immune",
+        "explanation": "An organ in the upper left abdomen that filters blood, removes old red blood cells, and mounts immune responses to blood-borne germs.",
+        "pearl": "People without a spleen are at higher risk of infection by encapsulated bacteria."
+      },
+      {
+        "id": "torso-duodenum",
+        "name": "Duodenum",
+        "topic": "digestive-renal",
+        "explanation": "The first part of the small intestine. It receives chyme from the stomach plus bile and pancreatic juice, and most chemical digestion happens here.",
+        "pearl": "The duodenum releases secretin and CCK in response to acid and fat."
+      },
+      {
+        "id": "torso-small-intestine",
+        "name": "Jejunum and ileum",
+        "topic": "digestive-renal",
+        "explanation": "The rest of the small intestine. Folds, villi and microvilli give it a huge surface area, and most nutrient absorption happens here.",
+        "pearl": "Fats are absorbed into lymphatic lacteals as chylomicrons. The ileum absorbs vitamin B12 and recycles bile salts."
+      },
+      {
+        "id": "torso-large-intestine",
+        "name": "Colon",
+        "topic": "digestive-renal",
+        "explanation": "The large intestine absorbs water and salts from what's left of food. Its bacteria make some vitamins, such as vitamin K.",
+        "pearl": "The colon's main job is water absorption. When it's sped up or impaired, the result is diarrhea."
+      },
+      {
+        "id": "torso-appendix",
+        "name": "Appendix",
+        "topic": "digestive-renal",
+        "explanation": "A small finger-shaped pouch off the start of the colon, containing lymphoid tissue.",
+        "pearl": "Inflammation of the appendix is appendicitis."
+      },
+      {
+        "id": "torso-rectum",
+        "name": "Rectum",
+        "topic": "digestive-renal",
+        "explanation": "The last part of the large intestine, which stores feces until defecation.",
+        "pearl": "The internal anal sphincter is smooth muscle (involuntary); the external sphincter is skeletal muscle (voluntary)."
+      },
+      {
+        "id": "torso-adrenal-glands",
+        "name": "Adrenal glands",
+        "topic": "nervous-endocrine",
+        "explanation": "Glands on top of the kidneys. The outer cortex makes steroid hormones (cortisol, aldosterone, androgens); the inner medulla makes epinephrine and norepinephrine.",
+        "pearl": "Cortisol is the main long-term stress hormone. The adrenal medulla is part of the sympathetic fight-or-flight response."
+      },
+      {
+        "id": "torso-kidneys",
+        "name": "Kidneys",
+        "topic": "digestive-renal",
+        "explanation": "Two bean-shaped organs that filter blood through about a million nephrons each, controlling water, salt, pH and blood pressure, and making urine.",
+        "pearl": "ADH inserts aquaporins in the collecting duct to save water. Aldosterone increases sodium reabsorption. The kidneys also release EPO and renin."
+      },
+      {
+        "id": "torso-ureters",
+        "name": "Ureters",
+        "topic": "digestive-renal",
+        "explanation": "Two muscular tubes that move urine from the kidneys to the bladder by peristalsis.",
+        "pearl": "Path of urine: kidney, ureter, bladder, urethra."
+      },
+      {
+        "id": "torso-bladder",
+        "name": "Urinary bladder",
+        "topic": "digestive-renal",
+        "explanation": "A stretchy muscular sac that stores urine.",
+        "pearl": "Urination is mainly parasympathetic: the detrusor muscle contracts. The internal sphincter is involuntary; the external sphincter is voluntary."
+      },
+      {
+        "id": "torso-prostate",
+        "name": "Prostate and seminal vesicles",
+        "topic": "reproduction-development",
+        "explanation": "Glands that add fluid to semen. The seminal vesicles supply fructose for sperm energy; the prostate adds an alkaline fluid.",
+        "pearl": "Sperm pathway, \"SEVEN UP\": Seminiferous tubules, Epididymis, Vas deferens, Ejaculatory duct, (Nothing), Urethra, Penis."
+      },
+      {
+        "id": "torso-testes",
+        "name": "Testes and epididymis",
+        "topic": "reproduction-development",
+        "explanation": "The testes make sperm in the seminiferous tubules and testosterone in Leydig cells. Sperm mature and gain motility in the epididymis.",
+        "pearl": "FSH acts on Sertoli cells to support sperm production; LH acts on Leydig cells to make testosterone. Meiosis happens in the seminiferous tubules."
+      }
+    ],
+    "skeleton": [
+      {
+        "id": "skeleton-skull",
+        "name": "Skull",
+        "topic": "muscle-bone-skin",
+        "explanation": "The cranial bones enclose and protect the brain, and the facial bones shape the face. Most skull bones are locked together at sutures.",
+        "pearl": "Sutures are fibrous, essentially immovable joints. In infants, soft gaps between skull bones (fontanelles) let the skull grow."
+      },
+      {
+        "id": "skeleton-mandible",
+        "name": "Mandible",
+        "topic": "muscle-bone-skin",
+        "explanation": "The lower jawbone, the only skull bone that moves freely.",
+        "pearl": "The jaw joint (temporomandibular joint) is a synovial joint, like the knee and shoulder."
+      },
+      {
+        "id": "skeleton-spine",
+        "name": "Vertebral column",
+        "topic": "muscle-bone-skin",
+        "explanation": "A stack of vertebrae (7 cervical, 12 thoracic, 5 lumbar, plus the sacrum and coccyx) with cushioning discs between them. It supports the body and protects the spinal cord.",
+        "pearl": "Sensory signals enter the spinal cord through the dorsal roots; motor signals leave through the ventral roots. Simple reflexes are handled in the cord without the brain."
+      },
+      {
+        "id": "skeleton-ribs",
+        "name": "Ribs and costal cartilage",
+        "topic": "muscle-bone-skin",
+        "explanation": "Twelve pairs of curved bones that protect the heart and lungs and move with every breath.",
+        "pearl": "The external intercostal muscles lift the ribs during inhalation, helping enlarge the chest."
+      },
+      {
+        "id": "skeleton-sternum",
+        "name": "Sternum",
+        "topic": "muscle-bone-skin",
+        "explanation": "The breastbone, where most ribs attach at the front of the chest.",
+        "pearl": "Flat bones like the sternum keep red bone marrow in adults, where blood cells are made."
+      },
+      {
+        "id": "skeleton-clavicle",
+        "name": "Clavicle",
+        "topic": "muscle-bone-skin",
+        "explanation": "The collarbone, a strut that connects the arm to the trunk and holds the shoulder out to the side.",
+        "pearl": "One of the most commonly broken bones, often from a fall onto an outstretched hand."
+      },
+      {
+        "id": "skeleton-scapula",
+        "name": "Scapula",
+        "topic": "muscle-bone-skin",
+        "explanation": "The shoulder blade. It forms the shallow socket for the humerus and anchors the rotator cuff muscles.",
+        "pearl": "The shoulder is a ball-and-socket joint that trades stability for a huge range of motion."
+      },
+      {
+        "id": "skeleton-humerus",
+        "name": "Humerus",
+        "topic": "muscle-bone-skin",
+        "explanation": "The upper arm bone, a typical long bone.",
+        "pearl": "Long bones have a shaft (diaphysis) and ends (epiphyses). Growth in length happens at the epiphyseal plates until they close after puberty."
+      },
+      {
+        "id": "skeleton-radius-ulna",
+        "name": "Radius and ulna",
+        "topic": "muscle-bone-skin",
+        "explanation": "The two forearm bones. The ulna forms the hinge of the elbow; the radius rotates around it to turn the palm up or down.",
+        "pearl": "Bending the elbow: the biceps (agonist) contracts while the triceps (antagonist) relaxes. The forearm acts as a lever."
+      },
+      {
+        "id": "skeleton-hand",
+        "name": "Hand and wrist bones",
+        "topic": "muscle-bone-skin",
+        "explanation": "Eight carpal bones in the wrist, five metacarpals in the palm, and fourteen phalanges in the fingers.",
+        "pearl": "The thumb's saddle joint allows opposition, letting the thumb touch each fingertip."
+      },
+      {
+        "id": "skeleton-pelvis",
+        "name": "Hip bones (pelvis)",
+        "topic": "muscle-bone-skin",
+        "explanation": "Each hip bone is three fused bones (ilium, ischium, pubis). Together with the sacrum they carry the body's weight to the legs and protect the pelvic organs.",
+        "pearl": "The iliac crest holds red marrow and is a common site for bone marrow samples."
+      },
+      {
+        "id": "skeleton-femur",
+        "name": "Femur",
+        "topic": "muscle-bone-skin",
+        "explanation": "The thigh bone, the longest and strongest bone in the body.",
+        "pearl": "Bone is constantly remodeled: osteoblasts build matrix, osteoclasts break it down. Parathyroid hormone raises blood calcium partly by increasing bone resorption."
+      },
+      {
+        "id": "skeleton-patella",
+        "name": "Patella",
+        "topic": "muscle-bone-skin",
+        "explanation": "The kneecap, a bone embedded in the quadriceps tendon that improves the muscle's leverage.",
+        "pearl": "Tapping the tendon below the patella triggers the knee-jerk reflex, a monosynaptic stretch reflex."
+      },
+      {
+        "id": "skeleton-tibia-fibula",
+        "name": "Tibia and fibula",
+        "topic": "muscle-bone-skin",
+        "explanation": "The two lower-leg bones. The tibia (shin bone) carries most of the body's weight; the thinner fibula mainly anchors muscles.",
+        "pearl": "Wolff's law: bone remodels to match the loads placed on it, so weight-bearing exercise strengthens bone."
+      },
+      {
+        "id": "skeleton-foot",
+        "name": "Foot and ankle bones",
+        "topic": "muscle-bone-skin",
+        "explanation": "Seven tarsal bones (including the talus and the heel bone, the calcaneus), five metatarsals and fourteen phalanges, arranged in arches.",
+        "pearl": "The calf muscles pull on the calcaneus through the Achilles tendon to raise the heel."
+      }
+    ]
+  },
+  "links": {
+    "starter-heart-1": "left-ventricle",
+    "starter-heart-2": "right-atrium",
+    "starter-heart-3": "left-ventricle",
+    "starter-respiratory-1": "torso-right-lung",
+    "starter-respiratory-2": "torso-right-lung",
+    "starter-respiratory-3": "torso-right-lung",
+    "concepts-1-respiratory-1": "torso-left-lung",
+    "concepts-1-respiratory-2": "torso-left-lung",
+    "concepts-1-respiratory-3": "brain-medulla",
+    "starter-digestive-renal-1": "torso-small-intestine",
+    "starter-digestive-renal-2": "torso-kidneys",
+    "starter-digestive-renal-3": "torso-stomach",
+    "starter-immune-1": "torso-spleen",
+    "starter-immune-2": "torso-thymus",
+    "starter-muscle-bone-skin-2": "skeleton-femur",
+    "starter-nervous-endocrine-2": "torso-adrenal-glands",
+    "concepts-1-nervous-endocrine-1": "torso-pancreas",
+    "starter-reproduction-development-1": "brain-pituitary",
+    "starter-reproduction-development-3": "torso-testes",
+    "concepts-1-reproduction-development-1": "torso-stomach",
+    "starter-sensation-perception-3": "eye-retina",
+    "concepts-1-sensation-perception-1": "eye-retina",
+    "concepts-1-sensation-perception-4": "brain-corpus-callosum",
+    "concepts-1-waves-sound-light-1": "eye-lens",
+    "concepts-1-waves-sound-light-2": "aorta",
+    "starter-consciousness-sleep-1": "brain-pons",
+    "starter-consciousness-sleep-2": "brain-hypothalamus",
+    "starter-learning-memory-3": "brain-hippocampus",
+    "concepts-1-learning-memory-6": "brain-amygdala",
+    "starter-cognition-language-2": "brain-broca-area",
+    "starter-emotion-motivation-stress-3": "torso-adrenal-glands",
+    "concepts-1-emotion-motivation-stress-2": "torso-adrenal-glands",
+    "concepts-1-emotion-motivation-stress-3": "torso-small-intestine"
+  }
+}

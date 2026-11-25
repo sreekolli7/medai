@@ -1,0 +1,1585 @@
+{
+  "_note": "Original MedAi questions written to cover concepts commonly tested on the MCAT. Scenarios, numbers, wording and explanations are our own; no text is taken from any copyrighted prep book or exam. DRAFTS: reviewed = false until a qualified reviewer approves each one.",
+  "source_name": "MedAi question bank (draft)",
+  "license": "Original MedAi content. Draft, not yet reviewed.",
+  "topics": {
+    "amino-acids-proteins": [
+      {
+        "prompt": "A drug is designed to mimic the transition state of the reaction catalyzed by a viral protease. Compared with the enzyme's normal substrate, this drug most likely:",
+        "choices": [
+          "Binds the active site more tightly",
+          "Binds an allosteric site instead of the active site",
+          "Is cleaved faster than the substrate",
+          "Increases the enzyme's Vmax"
+        ],
+        "answer": "A",
+        "explanation": "Enzymes bind the transition state more tightly than the substrate, which is how they lower activation energy. A stable transition-state analog therefore binds the active site very tightly and acts as a potent competitive inhibitor.",
+        "difficulty": 2
+      },
+      {
+        "prompt": "Which amino acid's side chain forms a ring by bonding back to its own backbone nitrogen, making it a common 'helix breaker'?",
+        "choices": [
+          "Glycine",
+          "Histidine",
+          "Proline",
+          "Tryptophan"
+        ],
+        "answer": "C",
+        "explanation": "Proline's side chain loops back and bonds to its own alpha-amino nitrogen. The resulting rigid ring removes the N–H hydrogen-bond donor and restricts rotation, so proline disrupts alpha helices.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "What is the net charge of the tetrapeptide Lys-Gly-Ala-Val at pH 7.4?",
+        "choices": [
+          "−1",
+          "0",
+          "+1",
+          "+2"
+        ],
+        "answer": "C",
+        "explanation": "At pH 7.4 the free N-terminus (+1) and C-terminus (−1) cancel. Lysine's side-chain amine (pKa about 10.5) is still protonated (+1), and Gly, Ala and Val have neutral side chains. The net charge is +1.",
+        "difficulty": 2
+      },
+      {
+        "prompt": "On a Lineweaver-Burk (double-reciprocal) plot, the y-intercept equals:",
+        "choices": [
+          "1/Vmax",
+          "−1/Km",
+          "Km/Vmax",
+          "Vmax"
+        ],
+        "answer": "A",
+        "explanation": "A Lineweaver-Burk plot graphs 1/V against 1/[S]. The y-intercept is 1/Vmax, the x-intercept is −1/Km, and the slope is Km/Vmax.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "Two mutant forms of an enzyme have the same Km as the wild type but different Vmax values. What does this suggest about the mutations?",
+        "choices": [
+          "They weaken substrate binding",
+          "They change the enzyme's optimal pH only",
+          "They make the enzyme a competitive inhibitor of itself",
+          "They change catalytic turnover but not substrate binding affinity"
+        ],
+        "answer": "D",
+        "explanation": "Km reflects how tightly the enzyme binds its substrate, while Vmax reflects how fast bound substrate is turned into product. An unchanged Km with an altered Vmax points to a change in catalysis, not in binding.",
+        "difficulty": 2
+      },
+      {
+        "prompt": "A drug-binding pocket on serum albumin prefers ligands that are hydrophobic and negatively charged. Which pair of residues would best line this pocket?",
+        "choices": [
+          "Aspartate and glutamate",
+          "Serine and threonine",
+          "Arginine and leucine",
+          "Glutamate and glycine"
+        ],
+        "answer": "C",
+        "explanation": "A positively charged residue (arginine) can form ionic bonds with the anionic part of the ligand, and a nonpolar residue (leucine) can interact with its hydrophobic part. Aspartate and glutamate are negatively charged and would repel an anion.",
+        "difficulty": 2
+      },
+      {
+        "prompt": "The dissociation constant (Kd) of a toxin for its receptor is 50 nM. A candidate blocking drug would compete best if its Kd for the toxin were:",
+        "choices": [
+          "5 µM",
+          "500 nM",
+          "50 nM",
+          "2 nM"
+        ],
+        "answer": "D",
+        "explanation": "A lower Kd means tighter binding. To outcompete a receptor with a Kd of 50 nM, the drug should bind the toxin more tightly, meaning a Kd below 50 nM. Of the options, 2 nM binds most tightly.",
+        "difficulty": 2
+      },
+      {
+        "prompt": "Replacing a surface threonine with leucine in a water-soluble protein would most likely:",
+        "choices": [
+          "Increase the ordering of water around the protein surface",
+          "Decrease the ordering of water around the protein surface",
+          "Add a new disulfide bond",
+          "Make the protein more soluble in water"
+        ],
+        "answer": "A",
+        "explanation": "Water forms ordered, cage-like shells around exposed nonpolar groups, which carries an entropy cost (the hydrophobic effect). Putting a nonpolar leucine where a polar threonine was increases this ordering and usually lowers solubility.",
+        "difficulty": 3
+      }
+    ],
+    "metabolism": [
+      {
+        "prompt": "In a reaction catalyzed by a P450 enzyme, NADPH is converted to NADP+. What role does NADPH play?",
+        "choices": [
+          "Oxidizing agent",
+          "Electrophile",
+          "Catalyst",
+          "Reducing agent"
+        ],
+        "answer": "D",
+        "explanation": "NADPH loses electrons (a hydride) when it becomes NADP+, so it is oxidized. The species that gets oxidized is the reducing agent: it supplies the electrons that reduce something else.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "Which equation correctly shows the final step of lactic acid fermentation?",
+        "choices": [
+          "Pyruvate + 2 NADH → lactate + 2 NAD+",
+          "Pyruvate + CO2 → lactate + O2",
+          "Pyruvate + NAD+ → lactate + NADH",
+          "Pyruvate + NADH + H+ → lactate + NAD+"
+        ],
+        "answer": "D",
+        "explanation": "Lactate dehydrogenase reduces pyruvate using one NADH (plus one H+), giving lactate and NAD+. Regenerating NAD+ lets glycolysis keep running without oxygen.",
+        "difficulty": 2
+      },
+      {
+        "prompt": "Brown adipose tissue produces heat without shivering mainly because its mitochondria:",
+        "choices": [
+          "Lack an electron transport chain",
+          "Contain more ATP synthase than other tissues",
+          "Run glycolysis in the matrix",
+          "Use uncoupling protein to let protons re-enter the matrix without making ATP"
+        ],
+        "answer": "D",
+        "explanation": "Brown fat is packed with mitochondria that contain uncoupling protein 1 (thermogenin). It lets protons leak back across the inner membrane, bypassing ATP synthase, so the energy of the gradient is released as heat.",
+        "difficulty": 2
+      },
+      {
+        "prompt": "Yeast grow much faster with oxygen than without it. The best explanation is that aerobic respiration:",
+        "choices": [
+          "Produces no CO2",
+          "Uses ethanol as its main fuel",
+          "Does not require glycolysis",
+          "Yields far more ATP per glucose than fermentation"
+        ],
+        "answer": "D",
+        "explanation": "Fermentation nets about 2 ATP per glucose, while full aerobic respiration yields roughly 30 or more. More ATP supports faster growth and division. Both pathways begin with glycolysis, and both release CO2 in yeast.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "A small G protein is active when bound to GTP. A GTPase-activating protein (GAP) acting on it will:",
+        "choices": [
+          "Swap GDP for GTP, activating it",
+          "Move the G protein into the nucleus",
+          "Add a phosphate to the G protein",
+          "Speed GTP hydrolysis to GDP, inactivating it"
+        ],
+        "answer": "D",
+        "explanation": "GAPs speed up the G protein's own GTPase activity, turning GTP into GDP and switching the protein off. Guanine-nucleotide exchange factors (GEFs) do the opposite: they swap in GTP to switch it on.",
+        "difficulty": 2
+      }
+    ],
+    "dna-gene-expression": [
+      {
+        "prompt": "A human gene is to be expressed in E. coli. Why must researchers insert a cDNA copy instead of the genomic sequence?",
+        "choices": [
+          "Bacteria cannot make proteins longer than 100 amino acids",
+          "Bacterial RNA polymerase cannot read human DNA",
+          "Bacteria do not have ribosomes",
+          "Bacteria lack the spliceosome needed to remove introns"
+        ],
+        "answer": "D",
+        "explanation": "cDNA is made from mature mRNA, so the introns have already been removed. Bacteria have no spliceosome and would translate intron sequences, producing a nonfunctional protein.",
+        "difficulty": 2
+      },
+      {
+        "prompt": "The first RNA made when a eukaryotic protein-coding gene is transcribed, before introns are removed, is called:",
+        "choices": [
+          "Pre-mRNA (hnRNA)",
+          "tRNA",
+          "rRNA",
+          "Mature mRNA"
+        ],
+        "answer": "A",
+        "explanation": "RNA polymerase II makes a primary transcript called pre-mRNA (heterogeneous nuclear RNA). It is capped, polyadenylated and spliced in the nucleus to become mature mRNA.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "Which DNA segment would need the highest temperature to separate its two strands?",
+        "choices": [
+          "5'-ATATATATAT-3'",
+          "5'-AATTAATTGC-3'",
+          "5'-GCATGCATAT-3'",
+          "5'-GCGCGGCCGC-3'"
+        ],
+        "answer": "D",
+        "explanation": "G–C pairs have three hydrogen bonds and stack more strongly than A–T pairs, which have two. The segment made entirely of G–C pairs has the highest melting temperature.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "A double-stranded DNA genome is 30% guanine. What percentage is adenine?",
+        "choices": [
+          "20%",
+          "30%",
+          "40%",
+          "70%"
+        ],
+        "answer": "A",
+        "explanation": "By Chargaff's rules, G = C, so G + C = 60%. The remaining 40% is split equally between A and T, so A = 20%.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "Under the microscope, regions of chromatin that stain lightly are usually:",
+        "choices": [
+          "Tightly packed and transcriptionally silent",
+          "Made of RNA instead of DNA",
+          "Found only at telomeres",
+          "Loosely packed and actively transcribed"
+        ],
+        "answer": "D",
+        "explanation": "Lightly staining euchromatin is loosely packed, giving transcription machinery access, so it contains most active genes. Darkly staining heterochromatin is tightly packed and mostly silent.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "A bacterial culture growing on glucose is moved into medium whose only carbon source is a new polysaccharide. Growth pauses, then resumes. The pause most likely reflects:",
+        "choices": [
+          "Half of the cells dying",
+          "The polysaccharide blocking binary fission",
+          "Mutation of every cell in the culture",
+          "Time needed to induce the genes for enzymes that break down the polysaccharide"
+        ],
+        "answer": "D",
+        "explanation": "Bacteria express catabolic enzymes only when they are needed. After the switch, the cells must turn on the relevant genes and build the enzymes, which causes a lag before growth resumes.",
+        "difficulty": 2
+      }
+    ],
+    "genetics-evolution": [
+      {
+        "prompt": "A man with an X-linked recessive disorder has children with a woman who has two normal alleles. Which outcome is expected?",
+        "choices": [
+          "All sons are affected",
+          "All daughters are carriers and all sons are unaffected",
+          "Half of the daughters are affected",
+          "All children are carriers"
+        ],
+        "answer": "B",
+        "explanation": "The father passes his X (carrying the allele) to every daughter, making them all carriers, and his Y to every son. The sons get their X from the unaffected mother, so they are unaffected.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "A woman with normal color vision has a son with red-green color blindness (X-linked recessive). The son's color blindness came from:",
+        "choices": [
+          "His father",
+          "His mother",
+          "Either parent equally",
+          "A new mutation, necessarily"
+        ],
+        "answer": "B",
+        "explanation": "A son inherits his only X chromosome from his mother and his Y from his father. Since the mother has normal vision, she must be a heterozygous carrier.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "Failure of homologous chromosomes to separate would occur during:",
+        "choices": [
+          "Anaphase I",
+          "Anaphase II",
+          "Prophase II",
+          "Telophase of mitosis"
+        ],
+        "answer": "A",
+        "explanation": "Homologous chromosomes separate in anaphase I of meiosis, so homolog nondisjunction happens there. Sister chromatids separate in anaphase II (and in mitotic anaphase).",
+        "difficulty": 2
+      }
+    ],
+    "cells-membranes": [
+      {
+        "prompt": "Coat protein complex I (COPI) vesicles mainly carry cargo:",
+        "choices": [
+          "From the ER to the Golgi",
+          "From the nucleus to the cytosol",
+          "From the plasma membrane to endosomes",
+          "From the Golgi back to the ER"
+        ],
+        "answer": "D",
+        "explanation": "COPI vesicles carry retrograde traffic from the Golgi back to the ER, for example returning escaped ER-resident proteins. COPII vesicles carry anterograde traffic from the ER to the Golgi, and clathrin coats vesicles during endocytosis.",
+        "difficulty": 2
+      },
+      {
+        "prompt": "A drug that specifically disrupts the Golgi apparatus would directly affect which organisms?",
+        "choices": [
+          "Bacteria only",
+          "Archaea only",
+          "Eukaryotes only",
+          "Viruses only"
+        ],
+        "answer": "C",
+        "explanation": "Only eukaryotic cells have membrane-bound organelles such as the Golgi apparatus. Bacteria and archaea lack them, and viruses are not cells.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "Most material taken in by endocytosis travels to which compartment for degradation?",
+        "choices": [
+          "Lysosome",
+          "Nucleus",
+          "Rough ER",
+          "Mitochondrion"
+        ],
+        "answer": "A",
+        "explanation": "Endocytosed cargo moves from early to late endosomes and then to lysosomes, where acid hydrolases break it down. Some toxins escape this route by traveling 'backward' to the Golgi and ER.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "Microfilaments are polymers of which protein?",
+        "choices": [
+          "Tubulin",
+          "Myosin",
+          "Keratin",
+          "Actin"
+        ],
+        "answer": "D",
+        "explanation": "Microfilaments are actin polymers. Microtubules are made of tubulin, and keratins are one family of intermediate-filament proteins. Myosin is a motor protein that moves along actin.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "Unlike a free-living Paramecium, a single cell taken from human liver tissue:",
+        "choices": [
+          "Lacks organelles",
+          "Cannot divide by mitosis",
+          "Depends on other body systems to supply nutrients and remove wastes",
+          "Cannot carry out metabolism"
+        ],
+        "answer": "C",
+        "explanation": "Tissue cells have organelles, divide, and run metabolism, but they rely on the circulatory, respiratory and other systems for nutrients, oxygen and waste removal. They are not independent organisms.",
+        "difficulty": 1
+      }
+    ],
+    "microbes": [
+      {
+        "prompt": "A blood parasite keeps switching which surface protein it displays. The main benefit of this antigenic variation is that it:",
+        "choices": [
+          "Speeds up the parasite's metabolism",
+          "Prevents it from entering red blood cells",
+          "Lets it make its own ATP",
+          "Helps it evade the host's antibody response"
+        ],
+        "answer": "D",
+        "explanation": "By the time the host makes antibodies against one surface protein, part of the parasite population has switched to a different one. This lets the infection persist despite the immune response.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "Antibiotics that kill bacteria by lysing them can sometimes worsen illness from toxin-producing strains because:",
+        "choices": [
+          "Lysis releases a burst of stored toxin",
+          "Antibiotics turn the toxin into a virus",
+          "Toxins make bacteria resistant to all antibiotics",
+          "Lysis activates the host's own toxin genes"
+        ],
+        "answer": "A",
+        "explanation": "When many bacteria burst at once, the toxin they contain is released all at the same time, which can briefly increase the amount of toxin in the host.",
+        "difficulty": 2
+      }
+    ],
+    "immune": [
+      {
+        "prompt": "During inflammation, neutrophils leave the blood in several steps. Which molecules mediate their FIRM adhesion to the vessel wall?",
+        "choices": [
+          "Selectins",
+          "Complement C3",
+          "Antibodies",
+          "Integrins"
+        ],
+        "answer": "D",
+        "explanation": "Selectins cause loose rolling along the endothelium. Activated integrins (such as LFA-1 binding ICAM-1) then hold the neutrophil firmly in place before it squeezes through the vessel wall.",
+        "difficulty": 2
+      },
+      {
+        "prompt": "A mouse monoclonal antibody works well the first time it is given to a patient but less well with repeated doses. The most likely reason is that:",
+        "choices": [
+          "The patient makes antibodies against the mouse protein",
+          "Mouse antibodies cannot bind human antigens",
+          "The antibody is broken down only in mice",
+          "Repeated doses cause the antibody to mutate"
+        ],
+        "answer": "A",
+        "explanation": "A mouse antibody is a foreign protein, so the human immune system responds to it, and the response grows with repeated exposure. This is why therapeutic antibodies are 'humanized'.",
+        "difficulty": 2
+      },
+      {
+        "prompt": "A therapy blocks neutrophils from attaching to blood vessels before they can enter tissue. Why might this protect tissue better than treating the damage afterward?",
+        "choices": [
+          "It prevents the damaging process from starting at all",
+          "It raises the neutrophil count",
+          "It speeds up antibody production",
+          "It makes neutrophils release more enzymes"
+        ],
+        "answer": "A",
+        "explanation": "Neutrophils damage tissue once they reach it and release reactive oxygen species and proteases. Blocking the first step (adhesion) stops the whole damaging cascade, instead of trying to repair harm already done.",
+        "difficulty": 2
+      }
+    ],
+    "nervous-endocrine": [
+      {
+        "prompt": "Insulin is made as proinsulin. Which fragment is cut out during processing and is often measured to assess a patient's own insulin production?",
+        "choices": [
+          "The A chain",
+          "The B chain",
+          "The C-peptide",
+          "The signal peptide"
+        ],
+        "answer": "C",
+        "explanation": "Proinsulin is cleaved to release the C-peptide, leaving the A and B chains joined by disulfide bonds. C-peptide is released in equal amounts with insulin, so it tracks the body's own insulin output.",
+        "difficulty": 2
+      },
+      {
+        "prompt": "Myelin helps an axon conduct faster mainly because it:",
+        "choices": [
+          "Lowers the membrane's capacitance and raises its resistance",
+          "Raises the membrane's capacitance",
+          "Adds more sodium channels under the myelin",
+          "Makes the axon diameter smaller"
+        ],
+        "answer": "A",
+        "explanation": "Myelin acts as an insulator: it increases membrane resistance (less leakage) and decreases capacitance (less charge needed to change voltage). The signal therefore jumps quickly between nodes of Ranvier.",
+        "difficulty": 2
+      }
+    ],
+    "heart": [
+      {
+        "prompt": "Blood leaving a capillary bed flows next into:",
+        "choices": [
+          "Arterioles",
+          "The aorta",
+          "Arteries",
+          "Venules"
+        ],
+        "answer": "D",
+        "explanation": "Blood flows from arteries to arterioles to capillaries, then to venules and veins. Venules collect blood from capillary beds.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "Infected red blood cells that stick to the walls of small vessels in the brain are most likely to cause:",
+        "choices": [
+          "Blocked blood flow in those vessels",
+          "Lower blood viscosity",
+          "Faster oxygen delivery",
+          "Increased red cell production"
+        ],
+        "answer": "A",
+        "explanation": "Cells that adhere to vessel walls can pile up and obstruct small vessels, reducing blood flow and oxygen delivery to the tissue downstream.",
+        "difficulty": 1
+      }
+    ],
+    "respiratory": [
+      {
+        "prompt": "If carbonic anhydrase in red blood cells is inhibited, which substance would build up in the tissues?",
+        "choices": [
+          "O2",
+          "HCO3−",
+          "CO2",
+          "Hemoglobin"
+        ],
+        "answer": "C",
+        "explanation": "Carbonic anhydrase rapidly converts CO2 + H2O into carbonic acid, which becomes HCO3− + H+, so that the blood can carry CO2 away. Without the enzyme, less CO2 is converted, and CO2 accumulates in the tissues.",
+        "difficulty": 2
+      },
+      {
+        "prompt": "As red blood cells pick up CO2 in systemic capillaries, bicarbonate leaves the cells in exchange for chloride. Compared with arterial red cells, venous red cells therefore contain:",
+        "choices": [
+          "More Cl−",
+          "Less Cl−",
+          "No HCO3−",
+          "More O2"
+        ],
+        "answer": "A",
+        "explanation": "This 'chloride shift' moves Cl− into red cells as HCO3− leaves. Venous blood carries more CO2, so venous red cells contain more chloride.",
+        "difficulty": 2
+      },
+      {
+        "prompt": "For CO2 + H2O ⇌ H2CO3 ⇌ H+ + HCO3−, a sudden rise in blood PCO2 (for example from holding your breath) will:",
+        "choices": [
+          "Raise blood pH",
+          "Shift the equilibrium to the left",
+          "Leave pH unchanged",
+          "Lower blood pH"
+        ],
+        "answer": "D",
+        "explanation": "By Le Châtelier's principle, adding CO2 shifts the equilibrium to the right, producing more H+. More H+ means a lower pH (respiratory acidosis).",
+        "difficulty": 1
+      }
+    ],
+    "reproduction-development": [
+      {
+        "prompt": "Which structure develops from endoderm?",
+        "choices": [
+          "Epidermis of the skin",
+          "Lens of the eye",
+          "Skeletal muscle",
+          "Lining of the stomach"
+        ],
+        "answer": "D",
+        "explanation": "Endoderm forms the epithelial lining of the digestive and respiratory tracts, plus organs such as the liver and pancreas. Epidermis and lens come from ectoderm, and skeletal muscle from mesoderm.",
+        "difficulty": 1
+      }
+    ],
+    "motion-forces": [
+      {
+        "prompt": "A nerve impulse travels at 50 m/s. How far does it travel in 4 ms?",
+        "choices": [
+          "0.02 m",
+          "0.2 m",
+          "2 m",
+          "12.5 m"
+        ],
+        "answer": "B",
+        "explanation": "distance = speed × time = 50 m/s × 0.004 s = 0.2 m.",
+        "difficulty": 1
+      }
+    ],
+    "work-energy": [
+      {
+        "prompt": "A device draws 50 W for 2 minutes. How much energy does it use?",
+        "choices": [
+          "100 J",
+          "600 J",
+          "2,500 J",
+          "6,000 J"
+        ],
+        "answer": "D",
+        "explanation": "Energy = power × time = 50 W × 120 s = 6,000 J.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "How much heat raises the temperature of 0.5 kg of water by 10 K? (c of water ≈ 4,180 J/kg·K)",
+        "choices": [
+          "2,090 J",
+          "4,180 J",
+          "20,900 J",
+          "41,800 J"
+        ],
+        "answer": "C",
+        "explanation": "q = mcΔT = 0.5 kg × 4,180 J/kg·K × 10 K = 20,900 J.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "Adding 600 J of heat to a 0.2 kg sample raises its temperature by 3 K, with no phase change. What is its specific heat?",
+        "choices": [
+          "100 J/kg·K",
+          "360 J/kg·K",
+          "1,000 J/kg·K",
+          "3,600 J/kg·K"
+        ],
+        "answer": "C",
+        "explanation": "c = q / (mΔT) = 600 J / (0.2 kg × 3 K) = 1,000 J/kg·K.",
+        "difficulty": 1
+      }
+    ],
+    "fluids": [
+      {
+        "prompt": "An adult has about 5 L of blood with a density of about 1,060 kg/m³. What is the approximate mass of the blood? (1 L = 10⁻³ m³)",
+        "choices": [
+          "0.5 kg",
+          "5.3 kg",
+          "53 kg",
+          "5,300 kg"
+        ],
+        "answer": "B",
+        "explanation": "5 L = 5 × 10⁻³ m³. Mass = density × volume = 1,060 kg/m³ × 5 × 10⁻³ m³ ≈ 5.3 kg.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "An object weighs W_air in air and W_water when fully submerged in water. Its density relative to water equals:",
+        "choices": [
+          "W_water / W_air",
+          "W_air − W_water",
+          "(W_air − W_water) / W_air",
+          "W_air / (W_air − W_water)"
+        ],
+        "answer": "D",
+        "explanation": "The weight lost in water equals the buoyant force, ρ_water·V·g, while W_air = ρ_object·V·g. Dividing gives ρ_object / ρ_water = W_air / (W_air − W_water).",
+        "difficulty": 3
+      },
+      {
+        "prompt": "A 27 g metal block has a volume of 1.0 × 10⁻⁵ m³. What is its density?",
+        "choices": [
+          "270 kg/m³",
+          "2,700 kg/m³",
+          "27,000 kg/m³",
+          "2.7 kg/m³"
+        ],
+        "answer": "B",
+        "explanation": "ρ = m / V = 0.027 kg / 1.0 × 10⁻⁵ m³ = 2,700 kg/m³ (about the density of aluminum).",
+        "difficulty": 1
+      }
+    ],
+    "electricity-magnetism": [
+      {
+        "prompt": "At rest, a neuron's inside is negative relative to the outside. Across the membrane, the electric field points:",
+        "choices": [
+          "From inside to outside",
+          "Nowhere; the field is zero",
+          "Parallel to the membrane",
+          "From outside to inside"
+        ],
+        "answer": "D",
+        "explanation": "Electric field lines point from positive charge toward negative charge. The outside of the membrane is positive and the inside negative, so the field points inward.",
+        "difficulty": 2
+      },
+      {
+        "prompt": "A 0.1 V potential difference drives current along a segment of axon with a resistance of 1 × 10⁶ Ω. What is the current?",
+        "choices": [
+          "1 × 10⁻⁷ A",
+          "1 × 10⁻⁵ A",
+          "1 × 10⁵ A",
+          "1 × 10⁷ A"
+        ],
+        "answer": "A",
+        "explanation": "By Ohm's law, I = V / R = 0.1 V / 10⁶ Ω = 10⁻⁷ A.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "A tungsten wire is connected to a constant-voltage source and heats up from room temperature. As it heats, the current through it:",
+        "choices": [
+          "Increases, because resistance falls",
+          "Stays constant",
+          "Decreases, because resistance rises",
+          "Drops to zero immediately"
+        ],
+        "answer": "C",
+        "explanation": "A metal's resistivity rises with temperature. At constant voltage, I = V / R, so the current falls as the wire heats up.",
+        "difficulty": 2
+      }
+    ],
+    "waves-sound-light": [
+      {
+        "prompt": "A farsighted (hyperopic) person sees distant objects clearly but not near ones. Which lens corrects this?",
+        "choices": [
+          "Diverging lens",
+          "No lens; only surgery helps",
+          "Cylindrical lens",
+          "Converging lens"
+        ],
+        "answer": "D",
+        "explanation": "In hyperopia, near images focus behind the retina. A converging (positive) lens adds focusing power and moves the image forward onto the retina. Myopia is corrected with a diverging lens.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "A Doppler ultrasound probe sends sound into a blood vessel and measures the frequency of the echo. This mainly lets clinicians find:",
+        "choices": [
+          "The density of the vessel wall",
+          "The thickness of the skin",
+          "The speed of blood flow",
+          "The temperature of the blood"
+        ],
+        "answer": "C",
+        "explanation": "Moving red blood cells shift the frequency of the reflected sound. Knowing the emitted frequency, the received frequency and the speed of sound gives the speed of blood flow.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "A photon has an energy of 2.48 eV. What is its wavelength? (hc ≈ 1,240 eV·nm)",
+        "choices": [
+          "250 nm",
+          "500 nm",
+          "620 nm",
+          "3,075 nm"
+        ],
+        "answer": "B",
+        "explanation": "λ = hc / E = 1,240 eV·nm / 2.48 eV = 500 nm, which is green visible light.",
+        "difficulty": 2
+      }
+    ],
+    "atoms-nuclear": [
+      {
+        "prompt": "A sample's activity falls from 800 MBq to 100 MBq in 18 hours. What is its half-life?",
+        "choices": [
+          "3 hours",
+          "6 hours",
+          "9 hours",
+          "18 hours"
+        ],
+        "answer": "B",
+        "explanation": "800 → 400 → 200 → 100 is three half-lives. 18 hours ÷ 3 = 6 hours.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "When a nucleus undergoes alpha decay, its mass number and atomic number change by:",
+        "choices": [
+          "−4 and −2",
+          "−2 and −4",
+          "0 and +1",
+          "−4 and +2"
+        ],
+        "answer": "A",
+        "explanation": "An alpha particle is a helium-4 nucleus (2 protons and 2 neutrons). Emitting one lowers the mass number by 4 and the atomic number by 2.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "Which quantum number mainly determines the size and energy level of an atomic orbital?",
+        "choices": [
+          "Principal quantum number (n)",
+          "Azimuthal quantum number (l)",
+          "Magnetic quantum number (mₗ)",
+          "Spin quantum number (mₛ)"
+        ],
+        "answer": "A",
+        "explanation": "The principal quantum number n sets the shell, which mainly determines orbital size and energy. l sets the shape (s, p, d, f), mₗ the orientation, and mₛ the electron's spin.",
+        "difficulty": 1
+      }
+    ],
+    "bonding-periodic": [
+      {
+        "prompt": "Which ion has the smallest radius?",
+        "choices": [
+          "F−",
+          "Na+",
+          "Mg2+",
+          "K+"
+        ],
+        "answer": "C",
+        "explanation": "F−, Na+ and Mg2+ all have the same number of electrons (they are isoelectronic). The one with the most protons, Mg2+, pulls its electrons in most tightly and is smallest. K+ has an extra electron shell.",
+        "difficulty": 2
+      },
+      {
+        "prompt": "Water (H2O) boils at 100 °C, while the heavier H2S boils at about −60 °C. The main reason is that:",
+        "choices": [
+          "H2O has a higher molar mass",
+          "H2O is nonpolar",
+          "H2S is ionic",
+          "H2O molecules form hydrogen bonds with each other"
+        ],
+        "answer": "D",
+        "explanation": "Hydrogen bonded to a small, very electronegative atom (N, O or F) forms strong hydrogen bonds with neighboring molecules. Sulfur is not electronegative enough, so H2S has much weaker intermolecular forces.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "Which hypohalous acid is the strongest acid?",
+        "choices": [
+          "HOI",
+          "HOBr",
+          "HOCl",
+          "They are all equal"
+        ],
+        "answer": "C",
+        "explanation": "In oxyacids, a more electronegative central atom pulls electron density from the O–H bond and stabilizes the conjugate base. Chlorine is the most electronegative of the three, so HOCl is the strongest.",
+        "difficulty": 2
+      }
+    ],
+    "gases-solutions": [
+      {
+        "prompt": "A gas is collected over water at 25 °C. The total pressure is 760 torr and the vapor pressure of water at 25 °C is 24 torr. What is the pressure of the dry gas?",
+        "choices": [
+          "24 torr",
+          "736 torr",
+          "760 torr",
+          "784 torr"
+        ],
+        "answer": "B",
+        "explanation": "By Dalton's law, P_total = P_gas + P_water. So P_gas = 760 − 24 = 736 torr.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "In an experiment to determine the gas constant, the measured pressure, volume, moles and temperature should be combined as:",
+        "choices": [
+          "R = nT / PV",
+          "R = PT / nV",
+          "R = PV / nT",
+          "R = nV / PT"
+        ],
+        "answer": "C",
+        "explanation": "Rearranging the ideal gas law PV = nRT gives R = PV / (nT).",
+        "difficulty": 1
+      },
+      {
+        "prompt": "What is the chloride ion concentration in 0.10 M AlCl3? (Assume complete dissociation.)",
+        "choices": [
+          "0.033 M",
+          "0.10 M",
+          "0.20 M",
+          "0.30 M"
+        ],
+        "answer": "D",
+        "explanation": "Each AlCl3 releases three Cl− ions, so [Cl−] = 3 × 0.10 M = 0.30 M.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "For silver chloride, Ksp = 1.8 × 10⁻¹⁰. In a mixture where [Ag+] = 1 × 10⁻⁴ M and [Cl−] = 1 × 10⁻⁴ M, what happens?",
+        "choices": [
+          "Nothing; the solution is unsaturated",
+          "AgCl precipitates, because the ion product exceeds Ksp",
+          "AgCl precipitates, because the ion sum exceeds Ksp",
+          "More AgCl dissolves"
+        ],
+        "answer": "B",
+        "explanation": "The ion product Q = [Ag+][Cl−] = 1 × 10⁻⁸, which is greater than Ksp (1.8 × 10⁻¹⁰). When Q > Ksp the solution is supersaturated, and solid AgCl forms until Q = Ksp.",
+        "difficulty": 2
+      },
+      {
+        "prompt": "What is the correct Ksp expression for calcium fluoride, CaF2?",
+        "choices": [
+          "[Ca2+][F−]",
+          "[Ca2+] + 2[F−]",
+          "[Ca2+]²[F−]",
+          "[Ca2+][F−]²"
+        ],
+        "answer": "D",
+        "explanation": "CaF2(s) ⇌ Ca2+ + 2 F−. Each concentration is raised to its coefficient, so Ksp = [Ca2+][F−]². The solid is left out.",
+        "difficulty": 1
+      }
+    ],
+    "acids-bases": [
+      {
+        "prompt": "At 25 °C, a solution has [OH−] = 1 × 10⁻⁵ M. What is its pH?",
+        "choices": [
+          "5",
+          "7",
+          "9",
+          "11"
+        ],
+        "answer": "C",
+        "explanation": "pOH = −log(10⁻⁵) = 5. At 25 °C, pH + pOH = 14, so pH = 9.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "A 0.1 M solution of an unknown compound has a pH of about 4 and conducts electricity only weakly. The compound is most likely:",
+        "choices": [
+          "A strong acid",
+          "A strong base",
+          "A weak acid",
+          "A neutral salt such as NaCl"
+        ],
+        "answer": "C",
+        "explanation": "A 0.1 M strong acid would give a pH near 1 and conduct strongly. A pH of 4 with weak conductivity means only a small fraction of the molecules ionize, which is the behavior of a weak acid.",
+        "difficulty": 2
+      },
+      {
+        "prompt": "A weak acid is mostly un-ionized in pure water, but almost fully ionized when added to blood. The best explanation is that:",
+        "choices": [
+          "Blood buffers remove the released H+, pulling the dissociation forward",
+          "Blood enzymes catalyze the dissociation",
+          "Blood is colder than pure water",
+          "Blood has no water"
+        ],
+        "answer": "A",
+        "explanation": "Blood is buffered near pH 7.4, so released H+ is taken up by buffer bases such as bicarbonate. Removing a product shifts the equilibrium HA ⇌ H+ + A− to the right (Le Châtelier). A catalyst would only speed up reaching equilibrium; it would not change where the equilibrium lies.",
+        "difficulty": 3
+      }
+    ],
+    "electrochemistry": [
+      {
+        "prompt": "In the reaction Zn + 2 HCl → ZnCl2 + H2, which statement is correct?",
+        "choices": [
+          "Zinc is reduced",
+          "Hydrogen is oxidized",
+          "Zinc is oxidized and hydrogen is reduced",
+          "No oxidation states change"
+        ],
+        "answer": "C",
+        "explanation": "Zinc goes from 0 to +2 (oxidized), and hydrogen goes from +1 in HCl to 0 in H2 (reduced). This makes it a redox (single-replacement) reaction.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "Cytochrome c shuttles electrons in the electron transport chain using an iron atom that switches between Fe3+ and Fe2+. How many electrons can one cytochrome c carry at a time?",
+        "choices": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "A",
+        "explanation": "Fe3+ + e− ⇌ Fe2+ is a one-electron change, so each cytochrome c carries a single electron at a time.",
+        "difficulty": 2
+      }
+    ],
+    "organic": [
+      {
+        "prompt": "A molecule has four chiral centers and no internal plane of symmetry. What is the maximum number of stereoisomers?",
+        "choices": [
+          "4",
+          "8",
+          "16",
+          "32"
+        ],
+        "answer": "C",
+        "explanation": "The maximum number of stereoisomers is 2^n, where n is the number of chiral centers. With no meso forms possible, 2^4 = 16.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "Which sugar gives a NEGATIVE result in the Tollens (silver mirror) test for reducing sugars?",
+        "choices": [
+          "Glucose",
+          "Maltose",
+          "Lactose",
+          "Sucrose"
+        ],
+        "answer": "D",
+        "explanation": "Reducing sugars have a free anomeric carbon that can open to an aldehyde. In sucrose, the anomeric carbons of glucose and fructose are bonded to each other, so neither can open, and it is non-reducing.",
+        "difficulty": 2
+      },
+      {
+        "prompt": "Squalene, a 30-carbon terpene, is a direct precursor in the biosynthesis of:",
+        "choices": [
+          "Triacylglycerols",
+          "Phospholipids",
+          "Cholesterol",
+          "Glucose"
+        ],
+        "answer": "C",
+        "explanation": "Squalene cyclizes (by way of lanosterol) to form the four-ring steroid skeleton of cholesterol, which is then used to make steroid hormones. It is not used to make glucose.",
+        "difficulty": 2
+      },
+      {
+        "prompt": "Mevalonic acid has a carboxylic acid and a hydroxyl group five carbons away. Under acidic conditions it most readily forms:",
+        "choices": [
+          "A six-membered cyclic ester (lactone)",
+          "A four-membered ring",
+          "A peroxide",
+          "An alkene by reduction"
+        ],
+        "answer": "A",
+        "explanation": "When an –OH and a –COOH group in the same molecule can reach each other, they form a cyclic ester. Six-membered rings have little ring strain, so mevalonic acid easily forms mevalonolactone.",
+        "difficulty": 3
+      },
+      {
+        "prompt": "Heating an acetal in aqueous acid produces:",
+        "choices": [
+          "A carbonyl compound and two alcohol groups",
+          "An ether and an alkene",
+          "A carboxylic acid only",
+          "No reaction; acetals are stable to acid"
+        ],
+        "answer": "A",
+        "explanation": "Acetals are stable to base but are hydrolyzed by aqueous acid back to the aldehyde or ketone and two alcohol groups (or a diol, for cyclic acetals).",
+        "difficulty": 2
+      },
+      {
+        "prompt": "An enzyme converts an achiral substrate into a single enantiomer of a product in water, with no other chiral reagents. The source of the chirality is:",
+        "choices": [
+          "The water solvent",
+          "The achiral substrate",
+          "The chiral active site of the enzyme",
+          "Random chance"
+        ],
+        "answer": "C",
+        "explanation": "Enzymes are built from L-amino acids, so their active sites are chiral and can favor forming one enantiomer. Water and achiral reactants cannot by themselves produce an excess of one enantiomer.",
+        "difficulty": 2
+      }
+    ],
+    "lab-techniques": [
+      {
+        "prompt": "In reverse-phase chromatography (a nonpolar stationary phase and a polar mobile phase), which compound elutes FIRST?",
+        "choices": [
+          "The most nonpolar compound",
+          "The most polar compound",
+          "The heaviest compound",
+          "All compounds elute together"
+        ],
+        "answer": "B",
+        "explanation": "Polar compounds interact weakly with the nonpolar stationary phase and prefer the polar mobile phase, so they travel through the column fastest and elute first.",
+        "difficulty": 2
+      },
+      {
+        "prompt": "A compound's IR spectrum shows a broad peak near 3300 cm⁻¹ and a strong, sharp peak near 1700 cm⁻¹, but nothing near 1650 cm⁻¹. Which groups are present?",
+        "choices": [
+          "O–H and C=O, but no C=C",
+          "C=C only",
+          "N–H and C≡N",
+          "C–H only"
+        ],
+        "answer": "A",
+        "explanation": "A broad band near 3300 cm⁻¹ indicates an O–H stretch, and a strong band near 1700 cm⁻¹ indicates C=O. An alkene C=C would appear around 1620–1680 cm⁻¹.",
+        "difficulty": 2
+      },
+      {
+        "prompt": "Which method removes water from a protein sample with the least risk of heat denaturation?",
+        "choices": [
+          "Steam distillation",
+          "Boiling under reflux",
+          "Lyophilization (freeze-drying)",
+          "Adding concentrated acid"
+        ],
+        "answer": "C",
+        "explanation": "Lyophilization freezes the sample and removes the ice by sublimation under vacuum, so the protein is never heated.",
+        "difficulty": 1
+      }
+    ],
+    "sensation-perception": [
+      {
+        "prompt": "To see a faint star at night, it helps to look slightly to the side of it. This works because:",
+        "choices": [
+          "Cones, which are concentrated in the fovea, are more sensitive to dim light",
+          "The blind spot is in the center of the retina",
+          "Looking sideways sends two images to the brain",
+          "Rods, which are concentrated in the periphery of the retina, are more sensitive to dim light"
+        ],
+        "answer": "D",
+        "explanation": "Rods are far more sensitive to dim light than cones and are most common outside the fovea. Looking slightly away from the star puts its image on rod-rich retina.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "Rows of 12 letters printed as XO XO XO XO XO XO are seen as six pairs. Which Gestalt principle explains this?",
+        "choices": [
+          "Proximity",
+          "Similarity",
+          "Continuity",
+          "Closure"
+        ],
+        "answer": "A",
+        "explanation": "Proximity means elements that are close together are grouped. The small gaps within each XO pair and larger gaps between pairs make us see six units.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "The perceived hue (color) of light is mainly determined by its:",
+        "choices": [
+          "Amplitude",
+          "Purity",
+          "Wavelength",
+          "Duration"
+        ],
+        "answer": "C",
+        "explanation": "Hue depends on wavelength (or frequency). Amplitude relates to brightness, and purity (saturation) relates to how vivid or washed-out a color looks.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "In a split-brain patient, an object shown only in the LEFT visual field usually cannot be named aloud. Why?",
+        "choices": [
+          "The left visual field goes to the right hemisphere, which cannot pass it to the left hemisphere's language areas",
+          "The left eye is blind after surgery",
+          "The occipital lobe is removed in the surgery",
+          "The right hemisphere controls all speech"
+        ],
+        "answer": "A",
+        "explanation": "Each visual field is processed by the opposite hemisphere. In most people speech is in the left hemisphere, so with the corpus callosum cut, information in the right hemisphere cannot reach those language areas.",
+        "difficulty": 2
+      }
+    ],
+    "learning-memory": [
+      {
+        "prompt": "On memory tests, people of all ages usually do better at:",
+        "choices": [
+          "Free recall than recognition",
+          "Recognition than free recall",
+          "Recall and recognition equally",
+          "Recall only for long lists"
+        ],
+        "answer": "B",
+        "explanation": "Recognition provides retrieval cues (the item itself), while free recall requires generating the item from memory. Recognition stays relatively stable with age, while free recall declines more.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "After studying the word 'doctor', a person responds faster to 'nurse' than to 'table'. Which model best explains this?",
+        "choices": [
+          "Spreading activation in a semantic network",
+          "Levels of processing",
+          "Serial position effect",
+          "Decay theory"
+        ],
+        "answer": "A",
+        "explanation": "In a semantic network, activating one concept spreads activation to related concepts, which primes them for faster retrieval.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "Participants hear a 20-word list and recall it after a 30-second distraction task. Compared with immediate recall, which effect mostly disappears?",
+        "choices": [
+          "Primacy effect",
+          "Recency effect",
+          "Both effects equally",
+          "Neither effect"
+        ],
+        "answer": "B",
+        "explanation": "The last few items (the recency effect) are held in short-term memory, which is displaced by the distraction. The first items (the primacy effect) were rehearsed into long-term memory, so they survive the delay.",
+        "difficulty": 2
+      },
+      {
+        "prompt": "You learned Spanish in high school and are now learning Italian. Your Spanish keeps intruding when you try to recall Italian words. This is:",
+        "choices": [
+          "Retroactive interference",
+          "Spontaneous recovery",
+          "Source amnesia",
+          "Proactive interference"
+        ],
+        "answer": "D",
+        "explanation": "In proactive interference, older learning disrupts recall of newer information. Retroactive interference is the reverse: new learning disrupts recall of old information.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "Explaining a concept to a classmate leads to better long-term retention than just rereading it. Which theory predicts this?",
+        "choices": [
+          "Levels-of-processing theory",
+          "Serial position theory",
+          "The James-Lange theory",
+          "Drive-reduction theory"
+        ],
+        "answer": "A",
+        "explanation": "Levels-of-processing theory holds that deeper, meaning-based (semantic) processing produces more durable memories than shallow processing.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "After being stung by a wasp, a child becomes afraid of bees, hornets and flies as well. This is:",
+        "choices": [
+          "Stimulus generalization",
+          "Stimulus discrimination",
+          "Extinction",
+          "Second-order conditioning"
+        ],
+        "answer": "A",
+        "explanation": "In stimulus generalization, stimuli similar to the conditioned stimulus also trigger the conditioned response. Discrimination would mean responding only to wasps.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "A child is stung by a wasp and later fears wasps. The pain and fear felt at the moment of the sting is the:",
+        "choices": [
+          "Conditioned stimulus",
+          "Conditioned response",
+          "Unconditioned response",
+          "Neutral stimulus"
+        ],
+        "answer": "C",
+        "explanation": "The sting (the unconditioned stimulus) naturally causes pain and fear, which is the unconditioned response. Later fear of the sight of a wasp is the conditioned response.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "Which reinforcement schedule produces high, steady responding that is most resistant to extinction?",
+        "choices": [
+          "Fixed-interval",
+          "Variable-interval",
+          "Fixed-ratio",
+          "Variable-ratio"
+        ],
+        "answer": "D",
+        "explanation": "A variable-ratio schedule rewards after an unpredictable number of responses, like a slot machine. Because any response might pay off, responding is high and persists long after rewards stop.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "A child learns to share toys after watching an older sibling get praised for sharing. This is:",
+        "choices": [
+          "Classical conditioning",
+          "Latent learning",
+          "Observational learning",
+          "Habituation"
+        ],
+        "answer": "C",
+        "explanation": "Observational learning (Bandura) means learning by watching others' behavior and its consequences. Mirror neurons are thought to support this kind of learning.",
+        "difficulty": 1
+      }
+    ],
+    "cognition-language": [
+      {
+        "prompt": "The idea that the language you speak shapes how you perceive and think about the world (for example, how you divide up colors) is:",
+        "choices": [
+          "Universal grammar",
+          "Prototype theory",
+          "The critical period hypothesis",
+          "The linguistic relativity (Sapir-Whorf) hypothesis"
+        ],
+        "answer": "D",
+        "explanation": "Linguistic relativity says language influences thought. Its strong form, linguistic determinism, says language fully determines thought; most evidence supports only a weaker influence.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "A person is excellent at music and mathematics but struggles to read social cues. This pattern fits best with:",
+        "choices": [
+          "Gardner's theory of multiple intelligences",
+          "Spearman's general intelligence (g)",
+          "Binet's mental age",
+          "Galton's hereditary genius"
+        ],
+        "answer": "A",
+        "explanation": "Gardner proposed several relatively independent intelligences (musical, logical-mathematical, interpersonal, and others), so strength in some areas and weakness in others is expected. Spearman's g predicts broadly similar ability across areas.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "An 8-year-old understands that pouring water from a short wide glass into a tall thin glass does not change the amount. In Piaget's theory, she has mastered:",
+        "choices": [
+          "Object permanence",
+          "Abstract hypothetical reasoning",
+          "Conservation",
+          "Egocentrism"
+        ],
+        "answer": "C",
+        "explanation": "Conservation, the understanding that quantity stays the same despite changes in shape, develops in the concrete operational stage (about ages 7–11). Preoperational children usually fail this test.",
+        "difficulty": 1
+      }
+    ],
+    "emotion-motivation-stress": [
+      {
+        "prompt": "Which theory says that physiological arousal and the conscious feeling of emotion happen at the same time, independently?",
+        "choices": [
+          "James-Lange",
+          "Opponent-process",
+          "Schachter-Singer two-factor",
+          "Cannon-Bard"
+        ],
+        "answer": "D",
+        "explanation": "Cannon-Bard: the thalamus sends signals to the body and cortex at the same time. James-Lange says the feeling follows bodily arousal, and Schachter-Singer says arousal plus a cognitive label produces the emotion.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "A student panics during an exam: heart racing, sweaty palms. Which branch of the nervous system is driving these changes?",
+        "choices": [
+          "Sympathetic",
+          "Parasympathetic",
+          "Somatic",
+          "Enteric only"
+        ],
+        "answer": "A",
+        "explanation": "The sympathetic nervous system drives the fight-or-flight response: higher heart rate, sweating, dilated pupils, and more glucose released into the blood.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "Strong sympathetic activation would be expected to:",
+        "choices": [
+          "Increase digestive (gut) motility",
+          "Decrease digestive (gut) motility",
+          "Constrict the pupils",
+          "Lower blood glucose"
+        ],
+        "answer": "B",
+        "explanation": "During fight-or-flight, the body diverts energy away from digestion, so gut motility is inhibited. Pupils dilate and blood glucose rises.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "Children who loved drawing are paid for each picture. When the payments stop, they draw less than before. This illustrates:",
+        "choices": [
+          "Learned helplessness",
+          "The overjustification effect",
+          "Drive-reduction theory",
+          "The Yerkes-Dodson law"
+        ],
+        "answer": "B",
+        "explanation": "In the overjustification effect, adding an external (extrinsic) reward to an activity people already enjoy can reduce their intrinsic motivation for it.",
+        "difficulty": 2
+      },
+      {
+        "prompt": "Researchers want to test whether frustration leads to aggression in children. The best manipulation would be to:",
+        "choices": [
+          "Let some children see an attractive toy but not play with it",
+          "Show some children violent cartoons",
+          "Measure heart rate during free play",
+          "Ask children how angry they usually feel"
+        ],
+        "answer": "A",
+        "explanation": "To test frustration as a cause, the experimenters must create frustration (block a goal) as the independent variable, then measure aggression. Showing violent media tests a different hypothesis (modeling).",
+        "difficulty": 2
+      }
+    ],
+    "personality-disorders": [
+      {
+        "prompt": "A worker who keeps making mistakes insists that his coworkers are the careless ones. Which defense mechanism is this?",
+        "choices": [
+          "Reaction formation",
+          "Projection",
+          "Regression",
+          "Sublimation"
+        ],
+        "answer": "B",
+        "explanation": "Projection means attributing your own unacceptable feelings or traits to someone else. Reaction formation means acting the opposite of how you feel, regression means reverting to childlike behavior, and sublimation means channeling an impulse into an acceptable activity.",
+        "difficulty": 1
+      }
+    ],
+    "development-identity": [
+      {
+        "prompt": "A 6-year-old says stealing is wrong 'because you'll get punished.' In Kohlberg's theory, this reasoning is:",
+        "choices": [
+          "Preconventional",
+          "Conventional",
+          "Postconventional",
+          "Formal operational"
+        ],
+        "answer": "A",
+        "explanation": "Preconventional morality is based on avoiding punishment and gaining rewards. Conventional morality focuses on approval and rules, and postconventional morality on social contracts and universal principles.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "In George Herbert Mead's theory of the self, the 'me' is:",
+        "choices": [
+          "The self as seen through the eyes of others, shaped by social norms",
+          "The spontaneous, acting part of the self",
+          "Freud's term for the conscience",
+          "The part of the self present at birth"
+        ],
+        "answer": "A",
+        "explanation": "For Mead, the 'me' is the socialized self: how we think others see us. The 'I' is the spontaneous self that responds to the 'me'.",
+        "difficulty": 2
+      },
+      {
+        "prompt": "Parents teaching their children to say 'please' and 'thank you' is an example of:",
+        "choices": [
+          "Assimilation",
+          "Socialization",
+          "Stratification",
+          "Discrimination"
+        ],
+        "answer": "B",
+        "explanation": "Socialization is the process of learning a society's norms, values and behaviors, and family is a key early agent of it.",
+        "difficulty": 1
+      }
+    ],
+    "social-psychology": [
+      {
+        "prompt": "Five students who already mildly oppose a new campus rule discuss it together. Afterward, they will most likely:",
+        "choices": [
+          "Become more moderate",
+          "Oppose it more strongly",
+          "Split evenly for and against",
+          "Not change their views"
+        ],
+        "answer": "B",
+        "explanation": "Group polarization: discussion among like-minded people pushes the group's average view to a more extreme version of where it started.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "Women told that a math test 'measures gender differences in ability' score lower than women told it is a problem-solving exercise. This is best explained by:",
+        "choices": [
+          "The bystander effect",
+          "Stereotype threat",
+          "Social loafing",
+          "Self-serving bias"
+        ],
+        "answer": "B",
+        "explanation": "Stereotype threat is anxiety about confirming a negative stereotype about your group. That anxiety uses up working memory and lowers performance.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "Which behavior is LEAST likely to be understood the same way across cultures?",
+        "choices": [
+          "A smile of happiness",
+          "A facial expression of disgust",
+          "A hand gesture such as a thumbs-up",
+          "A facial expression of fear"
+        ],
+        "answer": "C",
+        "explanation": "Research such as Ekman's suggests that basic facial expressions of emotion are recognized across cultures. Gestures are learned and their meaning varies; a thumbs-up is offensive in some places.",
+        "difficulty": 1
+      }
+    ],
+    "sociological-theory": [
+      {
+        "prompt": "A sociologist explains differences in health care access by looking at power, wealth and competition between social classes. Which perspective is this?",
+        "choices": [
+          "Conflict theory",
+          "Functionalism",
+          "Symbolic interactionism",
+          "Rational choice theory"
+        ],
+        "answer": "A",
+        "explanation": "Conflict theory, rooted in Marx, sees society as shaped by groups competing over scarce resources and power.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "During rapid social change, a person feels that society's rules no longer apply and feels disconnected from the community. Durkheim called this:",
+        "choices": [
+          "Alienation",
+          "Anomie",
+          "Groupthink",
+          "Role strain"
+        ],
+        "answer": "B",
+        "explanation": "Anomie is a state of normlessness, a breakdown of the shared norms that tie people to society. It is linked to weaker social cohesion.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "Researchers recruit study participants by asking each interviewee to refer friends. The biggest weakness of this snowball sampling is that:",
+        "choices": [
+          "The sample size is always too small",
+          "Participants share social networks, so the sample may not be representative",
+          "It cannot be used for interviews",
+          "It requires random assignment"
+        ],
+        "answer": "B",
+        "explanation": "Snowball samples are convenient for hard-to-reach groups, but people tend to refer others like themselves, which introduces sampling bias.",
+        "difficulty": 2
+      },
+      {
+        "prompt": "A study finds that patients at hospitals with more specialists receive more procedures, but those hospitals also serve wealthier patients. Wealth here is best described as:",
+        "choices": [
+          "The dependent variable",
+          "A confounding variable",
+          "The independent variable",
+          "A control group"
+        ],
+        "answer": "B",
+        "explanation": "A confounding variable is related to both the presumed cause and the outcome, so it offers another explanation for the association. Studies must control for it before drawing conclusions.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "A survey finds that older adults report volunteering more often than younger adults. Which conclusion is NOT justified?",
+        "choices": [
+          "Self-reports may not match actual behavior",
+          "Other variables, such as free time, may explain the difference",
+          "Getting older causes people to become more altruistic",
+          "Volunteering was measured by self-report"
+        ],
+        "answer": "C",
+        "explanation": "A correlation from a survey cannot show cause and effect. Age is tied to many other factors (free time, health, income), and self-reports can be biased.",
+        "difficulty": 2
+      }
+    ],
+    "culture-socialization": [
+      {
+        "prompt": "A traveler judges another country's food customs as 'strange and wrong' compared with those of his home country. This is:",
+        "choices": [
+          "Cultural relativism",
+          "Ethnocentrism",
+          "Assimilation",
+          "Cultural diffusion"
+        ],
+        "answer": "B",
+        "explanation": "Ethnocentrism means judging other cultures by the standards of your own. Cultural relativism means understanding a culture by its own standards.",
+        "difficulty": 1
+      }
+    ],
+    "inequality-demographics": [
+      {
+        "prompt": "In world-systems theory, a country with a weak government and an economy based mostly on exporting raw materials to wealthy nations is called a:",
+        "choices": [
+          "Core nation",
+          "Semi-periphery nation",
+          "Periphery nation",
+          "Post-industrial nation"
+        ],
+        "answer": "C",
+        "explanation": "Wallerstein's world-systems theory ranks countries as core (wealthy, strong states), semi-periphery (in between), and periphery (weaker states that supply raw materials and cheap labor).",
+        "difficulty": 1
+      },
+      {
+        "prompt": "Two siblings grew up in poverty and both became physicians. Which concept do their stories most directly challenge?",
+        "choices": [
+          "Upward intergenerational mobility",
+          "Social reproduction",
+          "Meritocracy",
+          "Relative poverty"
+        ],
+        "answer": "B",
+        "explanation": "Social reproduction describes how institutions pass inequality from one generation to the next. These siblings moved up, which shows upward mobility and fits the idea of meritocracy.",
+        "difficulty": 2
+      },
+      {
+        "prompt": "A patient gets a same-day appointment because her neighbor is the clinic's doctor. This illustrates:",
+        "choices": [
+          "Cultural capital",
+          "Social capital",
+          "Charismatic authority",
+          "Ascribed status"
+        ],
+        "answer": "B",
+        "explanation": "Social capital is the set of resources you can access through your social network. Cultural capital refers to non-financial assets such as education, knowledge and style.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "A scholarship committee chooses winners only by their grades and accomplishments, not by family background. This decision is based on:",
+        "choices": [
+          "Ascribed status",
+          "Achieved status",
+          "Master status",
+          "Relative poverty"
+        ],
+        "answer": "B",
+        "explanation": "Achieved status is earned through effort and ability. Ascribed status is assigned at birth or without choice, such as family background, and a meritocracy rewards achievement.",
+        "difficulty": 1
+      },
+      {
+        "prompt": "A hospital's billing rules, applied equally to all patients, end up reducing care for one racial group much more than others. This is best described as:",
+        "choices": [
+          "Individual prejudice",
+          "Institutional discrimination",
+          "Stereotype threat",
+          "Ethnocentrism"
+        ],
+        "answer": "B",
+        "explanation": "Institutional discrimination is unequal treatment built into the policies or practices of organizations, even when no individual intends harm. Prejudice is an attitude, not a policy or an outcome.",
+        "difficulty": 2
+      }
+    ],
+    "cars-passages": [
+      {
+        "passage": "We treat boredom as a defect to be repaired—an empty minute is something to fill, and a phone makes the filling effortless. Yet the empty minute once had a job. Waiting for a train or sitting through a dull lecture, the mind drifted, and in drifting it rearranged what it already held. People who report their best ideas arriving in the shower are not describing magic; they are describing one of the few remaining places where nothing else is offered.\n\nThis is not an argument that boredom is pleasant. It is not, and those who romanticize it usually have the luxury of choosing it. A factory worker repeating one motion for eight hours is bored in a way that produces nothing but fatigue. The useful kind of boredom is brief, unstructured and freely entered; the harmful kind is long, imposed and inescapable. To praise the first is not to excuse the second.\n\nWhat has changed is not the amount of tedium in our lives but our tolerance for its smallest doses. We now reach for stimulation before boredom has even had a chance to begin. The cost is hard to measure, because it consists of thoughts that never occurred. But a culture that cannot sit still for two minutes should not be surprised to find that it has trouble thinking for two hours.",
+        "questions": [
+          {
+            "prompt": "The author's main point is that:",
+            "choices": [
+              "All boredom is harmful and should be avoided",
+              "Brief, freely chosen boredom has value that constant stimulation may be eroding",
+              "Factory work is the main source of boredom today",
+              "Phones have made people more creative"
+            ],
+            "answer": "B",
+            "explanation": "The passage defends short, unstructured boredom (paragraphs 1 and 2) and warns that reaching for stimulation too quickly costs us thinking (paragraph 3). Choice A contradicts the author, and C and D misread details.",
+            "difficulty": 2
+          },
+          {
+            "prompt": "The author mentions the factory worker mainly in order to:",
+            "choices": [
+              "Show that all boredom leads to creativity",
+              "Distinguish harmful boredom from the useful kind the author defends",
+              "Argue that factories should be automated",
+              "Prove that boredom has increased over time"
+            ],
+            "answer": "B",
+            "explanation": "The example sets up the contrast between long, imposed boredom, which 'produces nothing but fatigue,' and brief, freely entered boredom. It limits the author's claim instead of supporting a general praise of boredom.",
+            "difficulty": 2
+          },
+          {
+            "prompt": "Which finding would most WEAKEN the author's argument?",
+            "choices": [
+              "People who rarely use phones while waiting report more new ideas",
+              "People given five quiet minutes generate no more ideas than people given five minutes of phone use",
+              "Most people find waiting unpleasant",
+              "Factory work causes fatigue"
+            ],
+            "answer": "B",
+            "explanation": "The author claims that brief unstructured time helps the mind produce ideas. If quiet time produced no more ideas than stimulation, that central claim would be undercut. Choice A supports the author, and C and D are consistent with the passage.",
+            "difficulty": 3
+          },
+          {
+            "prompt": "The author's statement that the cost 'consists of thoughts that never occurred' suggests that the cost is:",
+            "choices": [
+              "Easy to measure",
+              "Real but difficult to observe directly",
+              "Imaginary",
+              "Limited to factory workers"
+            ],
+            "answer": "B",
+            "explanation": "The author says the cost is 'hard to measure' because you cannot count ideas that never happened, yet still treats it as a real loss.",
+            "difficulty": 1
+          }
+        ]
+      },
+      {
+        "passage": "When an old building is restored, someone must decide which past to restore it to. A church built in one century, enlarged in the next and damaged in a third carries all three histories in its stones. Stripping it back to its 'original' form erases the later additions, which may be the parts the community actually remembers and uses. Preserving every layer, on the other hand, can leave a structure that pleases historians and confuses everyone else.\n\nSome conservators answer that the goal is honesty: repairs should be visible, so that no visitor mistakes new work for old. Others argue that a building is not a museum label but a living place, and that a seamless repair respects the people who must use it every day. Both sides claim to serve the building; they differ about whom the building is for.\n\nI find the second view more persuasive, though not without reservation. A building that cannot be used will not be maintained, and a building that is not maintained will not survive to be honest about anything. Still, the first view protects against a real danger: that restorers, freed from any obligation to show their work, will quietly substitute their own taste for the evidence of the past. The best restorations I know manage both—they are comfortable to use, and a careful observer can still tell where the old ends and the new begins.",
+        "questions": [
+          {
+            "prompt": "The central question the passage addresses is:",
+            "choices": [
+              "Whether old buildings should be demolished",
+              "How restorers should balance historical honesty with present-day use",
+              "Which century produced the best churches",
+              "Why historians dislike restored buildings"
+            ],
+            "answer": "B",
+            "explanation": "The passage weighs visible, 'honest' repairs against seamless repairs that serve the building's users, and ends by favoring a balance of the two.",
+            "difficulty": 1
+          },
+          {
+            "prompt": "The author's attitude toward the view that repairs should be visible is best described as:",
+            "choices": [
+              "Complete rejection",
+              "Uncritical enthusiasm",
+              "Respectful partial agreement",
+              "Indifference"
+            ],
+            "answer": "C",
+            "explanation": "The author prefers the 'living place' view but says the honesty view 'protects against a real danger' and praises restorations that do both. That is qualified respect, not rejection.",
+            "difficulty": 2
+          },
+          {
+            "prompt": "Based on the passage, the author would most likely approve of a restoration that:",
+            "choices": [
+              "Removes every later addition to return a church to its first form",
+              "Leaves the building unusable but shows every historical layer",
+              "Repairs a staircase so that it is safe and fits in, while recording the repair in a way that experts can detect",
+              "Replaces old carvings with new designs the restorer prefers"
+            ],
+            "answer": "C",
+            "explanation": "The author admires restorations that are 'comfortable to use' while letting 'a careful observer' tell old from new. Choice D is exactly the danger the author warns about.",
+            "difficulty": 2
+          },
+          {
+            "prompt": "The phrase 'whom the building is for' suggests that the disagreement between conservators is ultimately about:",
+            "choices": [
+              "Construction costs",
+              "Building materials",
+              "Which audience's needs should come first",
+              "Which historical period is most important"
+            ],
+            "answer": "C",
+            "explanation": "The author says that both sides claim to serve the building but 'differ about whom the building is for': visitors and historians versus the people who use it every day.",
+            "difficulty": 2
+          }
+        ]
+      }
+    ]
+  }
+}

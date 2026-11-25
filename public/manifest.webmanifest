@@ -1,0 +1,10 @@
+{
+  "name": "MedAi · MCAT prep that sticks",
+  "short_name": "MedAi",
+  "description": "Bite-sized MCAT practice, a sourced AI tutor, and 3D anatomy.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f4ff",
+  "theme_color": "#6d4aff",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
